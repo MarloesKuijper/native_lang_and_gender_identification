@@ -146,4 +146,4 @@ if __name__ == "__main__":
     run_multitask_model(vocab_size, t, embeddings_index, max_length, dim, padded_docs, y_train, X_dev, y_dev, y_extra_train, y_extra_dev)
 
 
-    #python python_scripts/multitask.py -cross -data_file my_data/data_final_cross_genre_native_lang_tm.csv -json_emb concatenated_embeddings_25d_pca.json -dim 25  
+    #python python_scripts/multitask.py -cross -data_file my_data/data_final_cross_genre_native_lang_tm.csv -json_emb regular_pretrained_embeddings_control_25d.json -dim 25  
