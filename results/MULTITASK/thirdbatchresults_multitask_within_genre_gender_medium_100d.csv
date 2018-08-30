@@ -1,0 +1,7 @@
+../my_data2/data_final_within_genre_gender_medium.csv
+Scores: 0.7311475419607318, 0.41639344330693856, with batch size 50 and epochs 40
+Scores: 0.6754098368472741, 0.3901639349147922, with batch size 50 and epochs 50
+Scores: 0.7114754106177659, 0.35081967281513526, with batch size 150 and epochs 40
+Scores: 0.6786885259581394, 0.3934426229996759, with batch size 150 and epochs 50
+Scores: 0.6754098368472741, 0.25901639368690427, with batch size 250 and epochs 40
+Scores: 0.6524590177614181, 0.2983606564216926, with batch size 250 and epochs 50

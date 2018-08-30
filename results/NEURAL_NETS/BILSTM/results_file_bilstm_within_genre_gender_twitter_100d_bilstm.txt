@@ -1,0 +1,2 @@
+Accuracy: 0.6655290103406223, with batch_size 16, optimizer adam, epochs 15, neurons 64, dropout 0.1, layers 1
+Accuracy: 0.7098976113283594, with batch_size 16, optimizer adam, epochs 15, neurons 64, dropout 0.1, layers 2

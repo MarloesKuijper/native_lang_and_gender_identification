@@ -1,0 +1,132 @@
+SVM with ngram range (1,1), analyzer word, kernel linear, C 0.01
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel linear, C 0.1
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel linear, C 1
+Accuracy: 0.8877551020408163
+(Macro) F1-score: 0.883371199826896
+             precision    recall  f1-score   support
+
+     female       0.86      0.86      0.86       119
+       male       0.90      0.91      0.91       175
+
+avg / total       0.89      0.89      0.89       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel linear, C 10
+Accuracy: 0.9013605442176871
+(Macro) F1-score: 0.8980472813804155
+             precision    recall  f1-score   support
+
+     female       0.87      0.89      0.88       119
+       male       0.92      0.91      0.92       175
+
+avg / total       0.90      0.90      0.90       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel rbf, C 0.01
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel rbf, C 0.1
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel rbf, C 1
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel rbf, C 10
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel poly, C 0.01
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel poly, C 0.1
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel poly, C 1
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+
+SVM with ngram range (1,1), analyzer word, kernel poly, C 10
+Accuracy: 0.5952380952380952
+(Macro) F1-score: 0.3731343283582089
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       119
+       male       0.60      1.00      0.75       175
+
+avg / total       0.35      0.60      0.44       294
+
+

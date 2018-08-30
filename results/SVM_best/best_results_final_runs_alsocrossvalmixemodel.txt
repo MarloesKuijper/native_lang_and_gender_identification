@@ -1,0 +1,51 @@
+Cross genre native lang tm
+Dev acc 0.22668112798264642
+Test acc 0.20065075921908893
+Cross genre native lang mt
+Dev acc 0.29152542372881357
+Test acc 0.2832957110609481
+Within genre native lang twitter
+Dev acc 0.856655290102389
+Test acc 0.8595890410958904
+Within genre native lang medium
+Dev acc 0.8426229508196721
+Test acc 0.7993421052631579
+Cross genre gender tm
+Dev acc 0.6344902386117137
+Test acc 0.6171366594360087
+Cross genre gender mt
+Dev acc 0.6305084745762712
+Test acc 0.6331828442437923
+within genre gender twitter
+Dev acc 0.9488054607508533
+Test acc 0.9178082191780822
+Within genre gender medium
+Dev acc 0.8819672131147541
+Test acc 0.9276315789473685
+
+
+
+Cross val for Native Language.. for cross genre
+[0.52026468 0.75767635 0.54704413]
+Cross val for Gender.. for cross genre
+[0.85737977 0.87053942 0.79983389]
+Cross val for Native Language.. for within genre twitter
+[0.75084175 0.74576271 0.73935264]
+Cross val for Gender.. for within genre twitter
+[0.91370558 0.89830508 0.91186441]
+Cross val for Native Language.. for within genre medium
+[0.81006494 0.7987013  0.76960784]
+Cross val for Gender.. for within genre medium
+[0.88292683 0.88780488 0.8762215 ]
+minimum length  1771
+Lengths:  1771 1771 1771 1771 1771 1771
+Running mixed models
+2362 295 295 295 295
+Accuracy testing on twitter for NL
+0.7423728813559322
+Accuracy testing on medium for NL
+0.7423728813559322
+Accuracy testing on twitter for Gender
+0.9186440677966101
+Accuracy testing on medium for Gender
+0.8542372881355932

@@ -1,0 +1,124 @@
+cross_genre_native_lang_tm
+Accuracy test set, single run:
+0.17136659436008678
+Accuracy dev set, averaged over 10 runs:
+0.19956616052060738
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.22668112798264642
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.19305856832971802
+
+
+cross_genre_native_lang_mt
+Accuracy test set, single run:
+0.16817155756207675
+Accuracy dev set, averaged over 10 runs:
+0.16271186440677965
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.2745762711864407
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.28442437923250563
+
+
+within_genre_native_lang_twitter
+Accuracy test set, single run:
+0.4280821917808219
+Accuracy dev set, averaged over 10 runs:
+0.45733788395904434
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.8361774744027304
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.7534246575342466
+
+
+within_genre_native_lang_medium
+Accuracy test set, single run:
+0.39473684210526316
+Accuracy dev set, averaged over 10 runs:
+0.46885245901639344
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.8098360655737705
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.8026315789473685
+
+
+cross_genre_gender_tm
+Accuracy test set, single run:
+0.6052060737527115
+Accuracy dev set, averaged over 10 runs:
+0.613882863340564
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.6290672451193059
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.6127982646420824
+
+
+cross_genre_gender_mt
+Accuracy test set, single run:
+0.6060948081264108
+Accuracy dev set, averaged over 10 runs:
+0.632768361581921
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.6384180790960452
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.636568848758465
+
+
+within_genre_gender_twitter
+Accuracy test set, single run:
+0.8253424657534246
+Accuracy dev set, averaged over 10 runs:
+0.825938566552901
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.9283276450511946
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.9178082191780822
+
+
+within_genre_gender_medium
+Accuracy test set, single run:
+0.7072368421052632
+Accuracy dev set, averaged over 10 runs:
+0.7540983606557377
+Accuracy dev set ensemble neural + SVM (10 runs): 
+0.8524590163934426
+Accuracy test set ensemble neural + SVM (10 runs): 
+0.8848684210526315
+
+
+###############################################################################
+Peregrine Cluster
+Job 1737787 for user 's2380250'
+Finished at: Thu Jul 19 15:21:17 CEST 2018
+
+Job details:
+============
+
+Name                : run_test_ensemble.sh
+User                : s2380250
+Partition           : gpu
+Nodes               : pg-gpu02
+Cores               : 12
+State               : COMPLETED
+Submit              : 2018-07-19T15:21:03
+Start               : 2018-07-19T15:21:03
+End                 : 2018-07-19T15:21:17
+Reserved walltime   : 02:30:00
+Used walltime       : 00:00:14
+Used CPU time       : 00:00:10 (efficiency:  6.54%)
+% User (Computation): 83.47%
+% System (I/O)      : 16.53%
+Mem reserved        : 8000M/node
+Max Mem used        : 83.68M (pg-gpu02)
+Max Disk Write      : 20.48K (pg-gpu02)
+Max Disk Read       : 113.12M (pg-gpu02)
+
+
+Acknowledgements:
+=================
+
+Please see this page if you want to acknowledge Peregrine in your publications:
+
+https://redmine.hpc.rug.nl/redmine/projects/peregrine/wiki/ScientificOutput
+
+################################################################################

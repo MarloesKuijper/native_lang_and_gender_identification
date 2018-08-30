@@ -15,7 +15,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential, Model
 from keras.layers import Dense
 from keras.layers import Flatten
-from keras.layers import Embedding, Dropout, LSTM, Bidirectional, Input, BatchNormalization, merge
+from keras.layers import Embedding, Dropout, LSTM, Bidirectional, Input, BatchNormalization, merge, concatenate
 from keras.utils import np_utils
 from sklearn.preprocessing import LabelEncoder
 np.random.seed(42)
@@ -26,7 +26,7 @@ def create_arg_parser():
     parser.add_argument("-data_file","--data_file", type=str, help="Data file")
     parser.add_argument("-cross", "--cross", action="store_true", help="Use if cross-genre is true")
     parser.add_argument("-gender", "--gender", action="store_true", help="Use if gender is true")
-    parser.add_argument("-json_emb", "--json_emb", type=str, help="JSON emebddings")
+    parser.add_argument("-json_emb", "--json_emb", type=str, help="JSON embeddings")
     parser.add_argument("-dim", "--dim", required=True, type=str, help="Dimensions")
     # parser.add_argument("-type", "--type", required=True, type=str, help="Type: lstm or bilstm")
     # parser.add_argument("-batch_size", "--batch_size", required=True, type=str, help="Dimensions")
@@ -93,43 +93,87 @@ def run_multitask_model(vocab_size, t, embeddings_index, input_length, dim, padd
         if embedding_vector is not None:
             embedding_matrix[i] = np.array(embedding_vector, dtype="float32")
     # define model
-    batch_size = 150
-    ep = 10
-    print('Build models...')
+    batch_size = 250
+    ep = 1
+    batch_sizes = [50, 150, 250]
+    epochs = [1,3,6,10]
+    epochs_two = [15, 20, 25, 30]
+    epochs_three = [40, 50]
 
-    main_input = Input(shape=(input_length,), dtype='float32', name='main_input')
+    if args.cross and "native_lang_tm" in args.name:
+        batch_size = 150
+        epochs = 30
+    elif args.cross and "native_lang_mt" in args.name:
+        batch_size = 150
+        epochs = 3
+    elif "native_lang_twitter" in args.name:
+        batch_size = 50
+        epochs = 30
+    elif "native_lang_medium" in args.name:
+        batch_size = 50
+        epochs = 50
+    elif args.cross and "gender_tm" in args.name:
+        batch_size = 50
+        epochs = 3
+    elif args.cross and "gender_mt" in args.name:
+        batch_size = 50
+        epochs = 15
+    elif not args.cross and "gender_twitter" in args.name:
+        batch_size = 50
+        epochs = 40
+    elif not args.cross and "gender_medium" in args.name:
+        batch_size = 50
+        epochs = 40
 
-    x = Embedding(input_dim = vocab_size, output_dim = dim, weights=[embedding_matrix], input_length=input_length, trainable=True, dropout=0.3)(main_input)
-    lstm = Bidirectional(LSTM(output_dim = 50, input_dim = dim, dropout_W=0.3, dropout_U=0.3) )(x)
-    lstm_out = Dropout(0.1)(lstm)
+    
 
-    aux_input = Input(shape=(input_length,), dtype="float32", name="aux_input")
-    auxiliary_input = Embedding(input_dim = vocab_size, output_dim = dim, weights=[embedding_matrix], input_length=input_length, trainable=True, dropout=0.3)(aux_input)
-    t_auxiliary_input = LSTM(output_dim=50, input_dim=dim, dropout_W=0.3, dropout_U=0.3)(auxiliary_input)
+    with open("test_results_"+ args.name + ".csv", "w", encoding="utf-8") as outfile:
+        print(args.data_file)
+        outfile.write(args.data_file+"\n")
+        print('Build models...')
 
-    x = merge([lstm_out, t_auxiliary_input], mode='concat')
+        main_input = Input(shape=(input_length,), dtype='float32', name='main_input')
+        x = Embedding(input_dim = vocab_size, output_dim = dim, weights=[embedding_matrix], input_length=input_length, trainable=True)(main_input)
+        lstm = Bidirectional(LSTM(output_dim = 50, input_dim = dim, dropout=0.3, recurrent_dropout=0.3) )(x)
 
-    x = Dense(30, activation='tanh', )(x)
-    x = Dropout(0.5)(x)
-
-    task1_output = Dense(9, activation='softmax', name='main_output')(x)
-    task2_output = Dense(2, activation='softmax', name='aux_output')(x)
+        aux_input = Input(shape=(input_length,), dtype="float32", name="aux_input")
+        auxiliary_input = Embedding(input_dim = vocab_size, output_dim = dim, weights=[embedding_matrix], input_length=input_length, trainable=True)(aux_input)
+        t_auxiliary_input = Bidirectional(LSTM(output_dim=50, input_dim=dim, dropout=0.3, recurrent_dropout=0.3))(auxiliary_input)
 
 
-    model_task1 = Model(input=[main_input, aux_input], output=[task1_output])
-    model_task2 = Model(input=[main_input, aux_input], output=[task2_output])
+        x = concatenate([lstm, t_auxiliary_input])
 
-    model_task1.compile(optimizer='RMSprop', loss='categorical_crossentropy', metrics=['accuracy'])
-    model_task2.compile(optimizer='RMSprop', loss='categorical_crossentropy', metrics=['accuracy'])
-    print(model_task1.summary())
-    print(model_task2.summary())
-    h = model_task1.fit([padded_docs, padded_docs], labels, batch_size=batch_size, epochs=ep, verbose=0)
-    h2 = model_task2.fit([padded_docs, padded_docs], y_extra_train, batch_size=batch_size, epochs=ep, verbose=0)
+        x = Dense(60, activation='tanh')(x)
+        ## add lstm layer here? test 
+        x = Dropout(0.5)(x)
 
-    loss, accuracy = model_task1.evaluate([X_test, X_test], y_test, verbose=0)
-    print(accuracy)
-    loss2, accuracy2 = model_task2.evaluate([X_test, X_test], y_extra_test, verbose=0)
-    print(accuracy2)
+
+        if not args.gender:
+            task1_output = Dense(9, activation='softmax', name='main_output')(x)
+            task2_output = Dense(2, activation='softmax', name='aux_output')(x)
+        else:
+            task1_output = Dense(2, activation='softmax', name='main_output')(x)
+            task2_output = Dense(9, activation='softmax', name='aux_output')(x)
+
+        model_task1 = Model(input=[main_input, aux_input], output=[task1_output, task2_output])
+        #model_task2 = Model(input=[main_input, aux_input], output=[task2_output])
+
+        model_task1.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'], loss_weights=[1., 0.4])
+        #model_task2.compile(optimizer='RMSprop', loss='categorical_crossentropy', metrics=['accuracy'])
+        print(model_task1.summary())
+        #print(model_task2.summary())
+        h = model_task1.fit([padded_docs, padded_docs], [labels, y_extra_train], batch_size=batch_size, epochs=epochs, verbose=1)
+        #h2 = model_task2.fit([padded_docs, padded_docs], y_extra_train, batch_size=batch_size, epochs=ep, verbose=0)
+
+        scores = model_task1.evaluate([X_test, X_test], [y_test, y_extra_test], verbose=1)
+        main = scores[-2]
+        aux = scores[-1]
+        print("Test Scores: {0},{1}, with batch size {2} and epochs {3}\n".format(str(main), str(aux), batch_size, epochs))
+        outfile.write("Test Scores: {0}, {1}, with batch size {2} and epochs {3}\n".format(str(main), str(aux), batch_size, epochs))
+
+            #print(accuracy, accuracy2)
+            # loss2, accuracy2 = model_task2.evaluate([X_test, X_test], y_extra_test, verbose=0)
+            # print(accuracy2)
 
 
 
@@ -137,13 +181,13 @@ if __name__ == "__main__":
     args = create_arg_parser()
 
     X_train, y_train, X_dev, y_dev, X_test, y_test, y_extra_train, y_extra_dev, y_extra_test = load_data(args.data_file, header_present=[0])
-    t, vocab_size, padded_docs, encoded_docs, max_length, X_dev = process_data(X_train, X_dev)
+    t, vocab_size, padded_docs, encoded_docs, max_length, X_test = process_data(X_train, X_test)
     dim = int(args.dim)
     with open(args.json_emb, "r", encoding="utf-8") as json_file:
         embeddings_index = json.load(json_file)
         print(len(embeddings_index))
 
-    run_multitask_model(vocab_size, t, embeddings_index, max_length, dim, padded_docs, y_train, X_dev, y_dev, y_extra_train, y_extra_dev)
+    run_multitask_model(vocab_size, t, embeddings_index, max_length, dim, padded_docs, y_train, X_test, y_test, y_extra_train, y_extra_test)
 
 
     #python python_scripts/multitask.py -cross -data_file my_data/data_final_cross_genre_native_lang_tm.csv -json_emb regular_pretrained_embeddings_control_25d.json -dim 25  

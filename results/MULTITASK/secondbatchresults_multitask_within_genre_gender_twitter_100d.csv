@@ -1,0 +1,12 @@
+../my_data2/data_final_within_genre_gender_twitter.csvScores: 0.7610921505775061, 0.35153583638090324, with batch size 50 and epochs 15
+Scores: 0.781569966073736, 0.34470989766177873, with batch size 50 and epochs 20
+Scores: 0.7542662118075244, 0.3890784983952298, with batch size 50 and epochs 25
+Scores: 0.7576791812942296, 0.4402730379495198, with batch size 50 and epochs 30
+Scores: 0.6996587032751012, 0.2935153587686324, with batch size 150 and epochs 15
+Scores: 0.6689419797256131, 0.3071672356983094, with batch size 150 and epochs 20
+Scores: 0.7645051196573537, 0.307167235596595, with batch size 150 and epochs 25
+Scores: 0.7372013653911421, 0.3174061434464243, with batch size 150 and epochs 30
+Scores: 0.6825938570621477, 0.29692832805190883, with batch size 250 and epochs 15
+Scores: 0.7098976113283594, 0.307167235596595, with batch size 250 and epochs 20
+Scores: 0.6996587032751012, 0.2832764506136598, with batch size 250 and epochs 25
+Scores: 0.7167235498949123, 0.3105802051850146, with batch size 250 and epochs 30

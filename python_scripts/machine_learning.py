@@ -531,6 +531,24 @@ if __name__ == "__main__":
         twitter_data, full_twitter, medium_data, full_medium = get_gender_data(countries)
 
 
+    print("Stats Twitter")
+    for item in full_twitter:
+        print(item)
+        print("male")
+        print(len(full_twitter[item]["male"].split()))
+        print("female")
+        print(len(full_twitter[item]["female"].split()))
+
+
+    print("Stats Medium")
+    for item in full_medium:
+        print(item)
+        print("male")
+        print(len(full_medium[item]["male"].split()))
+        print("female")
+        print(len(full_medium[item]["female"].split()))
+    
+
     #print(twitter_data)
     # print("twitter")
     #do_ML_within_genre(full_twitter, int(args.length), True, False, name='twitter')
@@ -552,26 +570,26 @@ if __name__ == "__main__":
 
 
     ## GRID SEARCH
-    if args.cross:
-        with open("./logbook.txt", "w", encoding="utf-8") as out:
-            out.write("Starting test for cross-genre\n")
-            out.write("Gender " + str(args.gender) + "\n")
-        print("Length tuple", str(tuple(args.lengths)))
-        test_svm_params(full_twitter, full_medium, gender=args.gender, downsample=False, within=False, name=args.model_name, lengths=tuple(args.lengths))
-        #get_pos_distro_features(full_twitter, full_medium, within=False)
-    else:
-        with open("./logbook.txt", "w", encoding="utf-8") as out:
-            out.write("Starting test for within-genre\n")
-            out.write("Medium" + args.medium + "\n")
-            out.write("Gender " + str(args.gender) + "\n")
-        print("Length tuple", str(tuple(args.lengths))+"\n")
-        print(args.medium+"\n")
-        if args.medium == "twitter":
-            data = full_twitter
-        elif args.medium == "medium":
-            data = full_medium
-        test_svm_params(data, None, gender=args.gender, downsample=False, within=True, model_name=args.model_name, lengths=tuple(args.lengths))
-        #get_pos_distro_features(data, None, within=True)
+    # if args.cross:
+    #     with open("./logbook.txt", "w", encoding="utf-8") as out:
+    #         out.write("Starting test for cross-genre\n")
+    #         out.write("Gender " + str(args.gender) + "\n")
+    #     print("Length tuple", str(tuple(args.lengths)))
+    #     test_svm_params(full_twitter, full_medium, gender=args.gender, downsample=False, within=False, name=args.model_name, lengths=tuple(args.lengths))
+    #     #get_pos_distro_features(full_twitter, full_medium, within=False)
+    # else:
+    #     with open("./logbook.txt", "w", encoding="utf-8") as out:
+    #         out.write("Starting test for within-genre\n")
+    #         out.write("Medium" + args.medium + "\n")
+    #         out.write("Gender " + str(args.gender) + "\n")
+    #     print("Length tuple", str(tuple(args.lengths))+"\n")
+    #     print(args.medium+"\n")
+    #     if args.medium == "twitter":
+    #         data = full_twitter
+    #     elif args.medium == "medium":
+    #         data = full_medium
+    #     test_svm_params(data, None, gender=args.gender, downsample=False, within=True, model_name=args.model_name, lengths=tuple(args.lengths))
+    #     #get_pos_distro_features(data, None, within=True)
 
     #cross_val_cross_genre(full_twitter, full_medium, gender=args.gender)
 

@@ -1,0 +1,98 @@
+Best accuracy SVM CROSS_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET (OUDE RESULTATEN voor CROSS, WITHIN is not goed, zie excel voor alle correcte beste resultaten)
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1 - 0.228
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10 - 0.228
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20 - 0.229
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10 - 0.211
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.220
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.216
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.220
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20 - 0.218
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10 - 0.217
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20 - 0.215
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10 - 0.217
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20 - 0.213
+
+Best f1-score SVM CROSS_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1 - 0.158
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10 - 0.163
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20 - 0.163
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.153
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.151
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.150
+
+--
+
+Best accuracy SVM CROSS_GENRE GENDER NO DOWNSAMPLING LARGE SET
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10 - 0.643
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20 - 0.643
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1 - 0.641
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 20 - 0.641
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10 - 0.639
+
+Best f1-score SVM CROSS_GENRE GENDER NO DOWNSAMPLING LARGE SET
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20 - 0.544
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10 - 0.543
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1 - 0.528
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 20 - 0.505
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10 - 0.504
+
+--
+
+Best accuracy SVM WITHIN_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET TWITTER
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.822
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10 - 0.819
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 10 - 0.809
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.809
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.805
+
+Best f1-score SVM WITHIN_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET TWITTER
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.806
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 10 - 0.803
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10 - 0.801
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 20 - 0.787
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.782
+
+Best accuracy SVM WITHIN_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET Medium
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.867
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.864
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.864
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.854
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20 - 0.851
+
+Best f1-score SVM WITHIN_GENRE NATIV LANG NO DOWNSAMPLING LARGE SET Medium
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.861
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.858
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.857
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.845
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20 - 0.841
+
+--
+
+Best accuracy SVM WITHIN_GENRE GENDER NO DOWNSAMPLING LARGE SET TWITTER
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10 - 0.932
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.935
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.935
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.928
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.928
+
+Best f1-score SVM WITHIN_GENRE GENDER NO DOWNSAMPLING LARGE SET TWITTER
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10 - 0.932
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20 - 0.932
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10 - 0.928
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20 - 0.925
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10 - 0.925
+
+Best accuracy SVM WITHIN_GENRE GENDER NO DOWNSAMPLING LARGE SET Medium
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10 - 0.908
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20 - 0.908
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10 - 0.908
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20 - 0.908
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20 - 0.905
+
+Best f1-score SVM WITHIN_GENRE GENDER NO DOWNSAMPLING LARGE SET Medium
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10 - 0.906
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20 - 0.906
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10 - 0.906
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20 - 0.906
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20 - 0.902

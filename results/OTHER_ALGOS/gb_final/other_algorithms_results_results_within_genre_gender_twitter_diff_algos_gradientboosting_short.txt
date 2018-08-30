@@ -1,0 +1,8 @@
+Gradient Boosting Accuracy 0.8771331058020477, with ngrams (2, 3), with analyzer char, with max depth 5, with min samples leaf 1, with estimators 100 
+Gradient Boosting Accuracy 0.8668941979522184, with ngrams (2, 3), with analyzer char, with max depth 5, with min samples leaf 5, with estimators 100 
+Gradient Boosting Accuracy 0.8327645051194539, with ngrams (2, 3), with analyzer char, with max depth 10, with min samples leaf 1, with estimators 100 
+Gradient Boosting Accuracy 0.8498293515358362, with ngrams (2, 3), with analyzer char, with max depth 10, with min samples leaf 5, with estimators 100 
+Gradient Boosting Accuracy 0.8805460750853242, with ngrams (2, 3), with analyzer char, with max depth 5, with min samples leaf 1, with estimators 300 
+Gradient Boosting Accuracy 0.8771331058020477, with ngrams (2, 3), with analyzer char, with max depth 5, with min samples leaf 5, with estimators 300 
+Gradient Boosting Accuracy 0.863481228668942, with ngrams (2, 3), with analyzer char, with max depth 10, with min samples leaf 1, with estimators 300 
+Gradient Boosting Accuracy 0.8464163822525598, with ngrams (2, 3), with analyzer char, with max depth 10, with min samples leaf 5, with estimators 300 

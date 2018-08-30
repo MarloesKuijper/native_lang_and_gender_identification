@@ -1,0 +1,13 @@
+../my_data2/data_final_cross_genre_native_lang_tm.csv
+Scores: 0.18438177877418907, 0.6138828629526812, with batch size 50 and epochs 15
+Scores: 0.1822125817327851, 0.5900216926204408, with batch size 50 and epochs 20
+Scores: 0.17245119344645105, 0.6193058565743833, with batch size 50 and epochs 25
+Scores: 0.16919739697928543, 0.5932754885865913, with batch size 50 and epochs 30
+Scores: 0.15509761404448114, 0.6030368770022195, with batch size 150 and epochs 15
+Scores: 0.18112798296965643, 0.6052060736234173, with batch size 150 and epochs 20
+Scores: 0.19197396979285425, 0.6247288501960854, with batch size 150 and epochs 25
+Scores: 0.21258134493470968, 0.5867678956199365, with batch size 150 and epochs 30
+Scores: 0.18872017363276244, 0.5856832978265146, with batch size 250 and epochs 15
+Scores: 0.18546637753731776, 0.5824295008260102, with batch size 250 and epochs 20
+Scores: 0.16594360088384075, 0.5900216918446753, with batch size 250 and epochs 25
+Scores: 0.1822125817327851, 0.6214750541006406, with batch size 250 and epochs 30

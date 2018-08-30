@@ -14,12 +14,14 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.gaussian_process.kernels import RBF
+from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, ExtraTreesClassifier, GradientBoostingClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
+import graphviz
 #import seaborn as sns
 #import matplotlib.pyplot as plt
 import nltk
@@ -30,6 +32,16 @@ def create_arg_parser():
     parser.add_argument("-g","--gender", action="store_true", help="Whether the type is gender or not")
     parser.add_argument("-name","--name", type=str, help="Model name (filename)")
     parser.add_argument("-ff","--ff", type=str, help="Feature file (pos distro features")
+
+    parser.add_argument("-ngrams","--ngrams", nargs="+", type=int, help="ngram range")
+    parser.add_argument("-analyzer","--analyzer", type=str, help="analyzer")
+    parser.add_argument("-est","--est", type=int, help="Number of estimators")
+    parser.add_argument("-weight","--weight", type=str, help="Weight")
+    parser.add_argument("-min_samples","--min_samples", type=int, help="Min samples leaf ")
+    parser.add_argument("-depth","--depth", type=int, help="Max depth")
+    parser.add_argument("-neighbor","--neighbor", type=int, help="Number of neighbors")
+    parser.add_argument("-default","--default", action="store_true", help="Use default model if true")
+
     args = parser.parse_args()
     return args
 
@@ -114,80 +126,144 @@ def test_specific_params(gender=False, within=False,model_name=""):
     knn_acc_col = []
 
 
+
+
     cv_results = []
-    with open("other_algorithms_results_{0}_decision_tree.txt".format(args.name), "w", encoding="utf-8") as outfile:
-        ngram_ranges_dt = [(1,1),(1,2), (1,3), (1,6),(1,7),(1,8)]
-        for ngram_range in ngram_ranges_dt:
-            for analyzer in analyzers:
-                    for depth in max_depths:
-                        for min_samples in min_samples_leafs:
-                            clf = DecisionTreeClassifier(random_state=2, max_depth=depth, min_samples_leaf=min_samples)
-                            pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=ngram_range, analyzer=analyzer)), ("clf", clf)])
-                            print("fitting data dt")
-                            pipeline.fit(X_train,y_train)
-                            preds = pipeline.predict(X_dev)
-                            accuracy = accuracy_score(y_dev, preds)
-                            print("Decision Tree Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}\n".format(accuracy, ngram_range, analyzer, depth, min_samples))
-                            dt_ngram_col.append(ngram_range)
-                            dt_analyzer_col.append(analyzer)
-                            dt_depth_col.append(depth)
-                            dt_min_samples_col.append(min_samples)
-                            dt_acc_col.append(accuracy)
-                            outfile.write("Decision Tree Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}\n".format(accuracy, ngram_range, analyzer, depth, min_samples))
+    #with open("other_algorithms_results_{0}_decision_tree_test.txt".format(args.name), "w", encoding="utf-8") as outfile:
+        # ngram_ranges_dt = [(1,1),(1,2), (1,3), (1,6),(1,7),(1,8)]
+        # for ngram_range in ngram_ranges_dt:
+        #     for analyzer in analyzers:
+        #             for depth in max_depths:
+        #                 for min_samples in min_samples_leafs:
+    if args.default:
+        clf = DecisionTreeClassifier()
+        pipeline = Pipeline([("vect", TfidfVectorizer()), ("clf", clf)])
+    else:
+        clf = DecisionTreeClassifier(random_state=2, max_depth=args.depth, min_samples_leaf=args.min_samples)
+        pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=args.ngrams, analyzer=args.analyzer)), ("clf", clf)])
+    print("fitting data dt")
+    pipeline.fit(X_train,y_train)
+    preds = pipeline.predict(X_test)
+    accuracy = accuracy_score(y_test, preds)
+    if args.default:
+        print("Decision Tree Accuracy: {0}, with default settings".format(accuracy))
+        outfile.write("Decision Tree Accuracy {0}, with default settings".format(accuracy))
+    else:
+        print("Decision Tree Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}\n".format(accuracy, args.ngrams, args.analyzer, args.depth, args.min_samples))
+        # dt_ngram_col.append(args.ngrams)
+        dot_data = tree.export_graphviz(clf, out_file=None,feature_names=pipeline.named_steps["vect"].get_feature_names(),  
+                         class_names=pipeline.classes_) 
+        graph = graphviz.Source(dot_data) 
+        graph.render("dt-crossgenre-tm") 
+        # dt_analyzer_col.append(args.analyzer)
+        # dt_depth_col.append(args.depth)
+        # dt_min_samples_col.append(args.min_samples)
+        # dt_acc_col.append(accuracy)
+        #outfile.write("Decision Tree Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}\n".format(accuracy, args.ngrams, args.analyzer, args.depth, args.min_samples))
+
+           # df_decision_tree = pd.DataFrame({"ngram_range": dt_ngram_col, "analyzer": dt_analyzer_col, "max_depth": dt_depth_col, "min_samples_leaf": dt_min_samples_col, "accuracy": dt_acc_col})
+           # df_decision_tree.to_csv("results_devset_decision_tree_{0}_test.csv".format(args.name))
+
+    # with open("other_algorithms_results_{0}_knn_test.txt".format(args.name), "w", encoding="utf-8") as outfile:
+    #     # analyzers = ["word"]
+    #     # for ngram_range in ngram_ranges:
+    #     #     for analyzer in analyzers:
+    #     #         for neighbor in n_neighbors:
+    #     #             for weight in weights:
+    #     if args.default:
+    #         clf = KNeighborsClassifier()
+    #         pipeline = Pipeline([("vect", TfidfVectorizer()), ("clf", clf)])
+    #     else:
+    #         clf = KNeighborsClassifier(n_neighbors=args.neighbor, weights=args.weight)
+    #         pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=args.ngrams, analyzer=args.analyzer)), ("clf", clf)])
+    #     print("fitting data knn")
+    #     pipeline.fit(X_train,y_train)
+    #     preds = pipeline.predict(X_test)
+    #     accuracy = accuracy_score(y_test, preds)
+    #     if args.default:
+    #         print("KNN Accuracy {0} with default settings".format(accuracy))
+    #         outfile.write("KNN Accuracy {0} with default settings".format(accuracy))
+    #     else:
+    #         print("KNN Accuracy {0}, with ngrams {1}, analyzer {2}, neighbors {3}, weight {4}\n".format(accuracy, args.ngrams, args.analyzer, args.neighbor, args.weight))
+    #         knn_ngram_col.append(args.ngrams)
+    #         knn_analyzer_col.append(args.analyzer)
+    #         knn_neighbors_col.append(args.neighbor)
+    #         knn_weights_col.append(args.weight)
+    #         knn_acc_col.append(accuracy)
+    #         outfile.write("KNN Accuracy {0}, with ngrams {1}, analyzer {2}, neighbors {3}, weight {4}\n".format(accuracy, args.ngrams, args.analyzer, args.neighbor, args.weight))
+
+            # df_knn = pd.DataFrame({"ngram_range": knn_ngram_col, "analyzer": knn_analyzer_col, "neighbors": knn_neighbors_col, "weights": knn_weights_col, "accuracy": knn_acc_col})
+            # df_knn.to_csv("results_devset_knn_{0}_test.csv".format(args.name))
+
+    # with open("other_algorithms_results_{0}_gradientboosting_test.txt".format(args.name), "w", encoding="utf-8") as outfile:
+    #     # no_estimators = [100,300]
+    #     # min_samples_leafs = [1,5]
+    #     # max_depth = [3,6]
+    #     # for ngram_range in ngram_ranges:
+    #     #     for analyzer in analyzers:
+    #     #         for est in no_estimators:
+    #     #             for depth in max_depths:
+    #                     # for min_samples in min_samples_leafs:
+    #     if args.default:
+    #         clf = GradientBoostingClassifier()
+    #         pipeline = Pipeline([("vect", TfidfVectorizer()), ("clf", clf)])
+    #     else:
+    #         clf = GradientBoostingClassifier(max_depth=args.depth, min_samples_leaf=args.min_samples, n_estimators=args.est, random_state=2)
+    #         pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=args.ngrams, analyzer=args.analyzer)), ("clf", clf)])
+    #     print("fitting data gb")
+    #     pipeline.fit(X_train,y_train)
+    #     preds = pipeline.predict(X_test)
+    #     accuracy = accuracy_score(y_test, preds)
+    #     #print("accuracy: {0}".format(accuracy))
+    #     if args.default:
+    #         print("Gradient Boosting Accuracy {0} with default settings".format(accuracy))
+    #         outfile.write("Gradient Boosting Accuracy {0} with default settings".format(accuracy))
+    #     else:
+    #         gb_ngram_col.append(args.ngrams)
+    #         gb_analyzer_col.append(args.analyzer)
+    #         gb_est_col.append(args.est)
+    #         gb_depth_col.append(args.depth)
+    #         gb_min_samples_col.append(args.min_samples)
+    #         gb_acc_col.append(accuracy)
+    #         outfile.write("Gradient Boosting Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}, number estimators {5}\n".format(accuracy, args.ngrams, args.analyzer, args.depth, args.min_samples, args.est))
+    #         print("Gradient Boosting Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}, number estimators {5}\n".format(accuracy, args.ngrams, args.analyzer, args.depth, args.min_samples, args.est))
+
+    # df_gradient_boost = pd.DataFrame({"ngram_range": gb_ngram_col, "analyzer": gb_analyzer_col, "max_depth": gb_depth_col, "min_samples_leaf": gb_min_samples_col, "estimators": gb_est_col, "accuracy": gb_acc_col})
+    # df_gradient_boost.to_csv("results_devset_gradient_boost_{0}_test.csv".format(args.name))
+
+    # mnb_acc_col = []
+    # with open("other_algorithms_results_{0}_mnb_default.txt".format(args.name), "w", encoding="utf-8") as outfile:
+    #     alpha = [0.1, 1.0, 2]
+    #     # for ngram_range in ngram_ranges:
+    #     #     for analyzer in analyzers:
+    #     #         for alp in alpha:
+    #     #clf = MultinomialNB(alpha=alp)
+    #     clf = MultinomialNB()
+    #     #pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=ngram_range, analyzer=analyzer)), ("clf", clf)])
+    #     pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False)), ("clf", clf)])
+    #     print("fitting data mnb")
+    #     pipeline.fit(X_train,y_train)
+    #     preds = pipeline.predict(X_dev)
+    #     accuracy = accuracy_score(y_dev, preds)
+    #     #outfile.write("MNB Accuracy {0}, with ngrams {1}, analyzer {2}, alpha {3} \n".format(accuracy, ngram_range, analyzer, alp))
+    #     outfile.write("MNB Accuracy {0}\n".format(accuracy))
+    #     #print("MNB Accuracy {0}, with ngrams {1}, analyzer {2}, alpha {3}\n".format(accuracy, ngram_range, analyzer, alp))
+    #     print("MNB Accuracy {0}\n".format(accuracy))
+    #     # mnb_ngram_col.append(ngram_range)
+    #     # mnb_analyzer_col.append(analyzer)
+    #     # mnb_alp_col.append(alp)
+    #     mnb_acc_col.append(accuracy)
+    # #df_mnb = pd.DataFrame({"ngram_range": mnb_ngram_col, "analyzer": mnb_analyzer_col, "accuracy": mnb_acc_col, "alpha": mnb_alp_col})
+    # df_mnb = pd.DataFrame({"accuracy": mnb_acc_col})
+    # df_mnb.to_csv("results_devset_mnb_{0}_default.csv".format(args.name))
+
     
-    df_decision_tree = pd.DataFrame({"ngram_range": dt_ngram_col, "analyzer": dt_analyzer_col, "max_depth": dt_depth_col, "min_samples_leaf": dt_min_samples_col, "accuracy": dt_acc_col})
-    df_decision_tree.to_csv("results_devset_decision_tree_{0}.csv".format(args.name))
-
-    with open("other_algorithms_results_{0}_knn.txt".format(args.name), "w", encoding="utf-8") as outfile:
-        analyzers = ["word"]
-        for ngram_range in ngram_ranges:
-            for analyzer in analyzers:
-                for neighbor in n_neighbors:
-                    for weight in weights:
-                        clf = KNeighborsClassifier(n_neighbors=neighbor, weights=weight)
-                        pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=ngram_range, analyzer=analyzer)), ("clf", clf)])
-                        print("fitting data knn")
-                        pipeline.fit(X_train,y_train)
-                        preds = pipeline.predict(X_dev)
-                        accuracy = accuracy_score(y_dev, preds)
-                        print("KNN Accuracy {0}, with ngrams {1}, analyzer {2}, neighbors {3}, weight {4}\n".format(accuracy, ngram_range, analyzer, neighbor, weight))
-                        knn_ngram_col.append(ngram_range)
-                        knn_analyzer_col.append(analyzer)
-                        knn_neighbors_col.append(neighbor)
-                        knn_weights_col.append(weight)
-                        knn_acc_col.append(accuracy)
-                        outfile.write("KNN Accuracy {0}, with ngrams {1}, analyzer {2}, neighbors {3}, weight {4}\n".format(accuracy, ngram_range, analyzer, neighbor, weight))
-
-    df_knn = pd.DataFrame({"ngram_range": knn_ngram_col, "analyzer": knn_analyzer_col, "neighbors": knn_neighbors_col, "weights": knn_weights_col, "accuracy": knn_acc_col})
-    df_knn.to_csv("results_devset_knn_{0}.csv".format(args.name))
-                    # elif i == 1:
-                    #     pass
-                        # for est in no_estimators:
-                        #     for depth in max_depths:
-                        #         for min_samples in min_samples_leafs:
-                        #             clf = GradientBoostingClassifier(max_depth=depth, min_samples_leaf=min_samples, n_estimators=est, random_state=2)
-                        #             pipeline = Pipeline([("vect", TfidfVectorizer(lowercase=False, ngram_range=ngram_range, analyzer=analyzer)), ("clf", clf)])
-                        #             print("fitting data gb")
-                        #             pipeline.fit(X_train,y_train)
-                        #             preds = pipeline.predict(X_dev)
-                        #             accuracy = accuracy_score(y_dev, preds)
-                        #             print("accuracy: {0}".format(accuracy))
-                        #             gb_ngram_col.append(ngram_range)
-                        #             gb_analyzer_col.append(analyzer)
-                        #             gb_est_col.append(est)
-                        #             gb_depth_col.append(depth)
-                        #             gb_min_samples_col.append(min_samples)
-                        #             gb_acc_col.append(accuracy)
-                        #             outfile.write("Gradient Boosting Accuracy {0}, with ngrams {1}, analyzer {2}, max_depth {3}, min samples leaf {4}, number estimators {5}\n".format(accuracy, ngram_range, analyzer, depth, min_samples, est))
-                        
-
     
     # df_decision_tree = pd.DataFrame({"ngram_range": dt_ngram_col, "analyzer": dt_analyzer_col, "max_depth": dt_depth_col, "min_samples_leaf": dt_min_samples_col, "accuracy": dt_acc_col})
     # df_gradient_boost = pd.DataFrame({"ngram_range": gb_ngram_col, "analyzer": gb_analyzer_col, "max_depth": gb_depth_col, "min_samples_leaf": gb_min_samples_col, "estimators": gb_est_col, "accuracy": gb_acc_col})
     # df_knn = pd.DataFrame({"ngram_range": knn_ngram_col, "analyzer": knn_analyzer_col, "neighbors": knn_neighbors_col, "weights": knn_weights_col, "accuracy": knn_acc_col})
 
     
-    #df_gradient_boost.to_csv("results_devset_gradient_boost_{0}.csv".format(args.name))
     
     
 

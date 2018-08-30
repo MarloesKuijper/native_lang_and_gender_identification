@@ -1,0 +1,7 @@
+../my_data2/data_final_cross_genre_gender_tm.csv
+Scores: 0.6030368768729253, 0.16160520610607626, with batch size 50 and epochs 40
+Scores: 0.6225596527991223, 0.16702819972777833, with batch size 50 and epochs 50
+Scores: 0.60629067296837, 0.172451193155539, with batch size 150 and epochs 40
+Scores: 0.6127982643834939, 0.18655097630044642, with batch size 150 and epochs 50
+Scores: 0.601952278303738, 0.17787418687421175, with batch size 250 and epochs 40
+Scores: 0.5965292846820359, 0.15943600870911315, with batch size 250 and epochs 50

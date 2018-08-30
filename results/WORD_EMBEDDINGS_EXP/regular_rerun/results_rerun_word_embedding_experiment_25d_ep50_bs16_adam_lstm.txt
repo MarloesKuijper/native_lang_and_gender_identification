@@ -1,0 +1,33 @@
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_regular_25D
+Accuracy: 0.1973969631559678, Loss: 2.845640492284117
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_regular_25D
+Accuracy: 0.24632768365791288, Loss: 2.498281389441194
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_regular_25D
+Accuracy: 0.30716723590173817, Loss: 1.812081805675103
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_regular_25D
+Accuracy: 0.34098360685051465, Loss: 1.9080000228569156
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_regular_25D
+Accuracy: 0.6138828638577409, Loss: 0.9495083186735042
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_regular_25D
+Accuracy: 0.589830508642951, Loss: 0.8293985719061168
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular_25D
+Accuracy: 0.7610921505775061, Loss: 0.6637690864732241
+Filename: results_within_genre_gender_medium_word_embedding_experiment_regular_25D
+Accuracy: 0.7672131153403735, Loss: 0.8225505314889502
+
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_learner_25D
+Accuracy: 0.1594360090646723, Loss: 5.52081216286682
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_learner_25D
+Accuracy: 0.2293785310902838, Loss: 2.5818064369050795
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_learner_25D
+Accuracy: 0.23208191131365585, Loss: 2.2027931156418834
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_learner_25D
+Accuracy: 0.28196721316361034, Loss: 2.1878179479817876
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_learner_25D
+Accuracy: 0.5422993498872521, Loss: 1.927493965289598
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_learner_25D
+Accuracy: 0.5943502825195507, Loss: 1.8717678829775017
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_learner_25D
+Accuracy: 0.5733788399973013, Loss: 1.7508040865940446
+Filename: results_within_genre_gender_medium_word_embedding_experiment_learner_25D
+Accuracy: 0.6459016405168126, Loss: 1.0524626896029614

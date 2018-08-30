@@ -1,0 +1,33 @@
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_learner_100D
+Accuracy: 0.1529284165828709, Loss: 5.380254331741829
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_learner_100D
+Accuracy: 0.206779661037996, Loss: 2.756981609366034
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_learner_100D
+Accuracy: 0.21160409561399715, Loss: 2.79879087474159
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_learner_100D
+Accuracy: 0.26557377050401737, Loss: 2.5232194931780705
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_learner_100D
+Accuracy: 0.6182212577466075, Loss: 1.7428876277940133
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_learner_100D
+Accuracy: 0.5762711866090526, Loss: 1.72158570181852
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_learner_100D
+Accuracy: 0.631399317813001, Loss: 1.6881411165100721
+Filename: results_within_genre_gender_medium_word_embedding_experiment_learner_100D
+Accuracy: 0.6885245915319099, Loss: 1.4365890846877802
+
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_regular_100D
+Accuracy: 0.2180043384917646, Loss: 3.551890888855411
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_regular_100D
+Accuracy: 0.20000000001683746, Loss: 3.704639101297842
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_regular_100D
+Accuracy: 0.34812286730105557, Loss: 1.8198276121461758
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_regular_100D
+Accuracy: 0.3934426232439573, Loss: 2.118095459703539
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_regular_100D
+Accuracy: 0.6355748378273722, Loss: 1.4392686500466567
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_regular_100D
+Accuracy: 0.6372881356268952, Loss: 1.3839503261329091
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular_100D
+Accuracy: 0.784982935255298, Loss: 1.0494324501870842
+Filename: results_within_genre_gender_medium_word_embedding_experiment_regular_100D
+Accuracy: 0.7147540995332061, Loss: 0.5458120365611843

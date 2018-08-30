@@ -1,0 +1,20 @@
+fitting data knn
+KNN Accuracy 0.1963123644251627, with ngrams [1, 8], analyzer word, neighbors 20, weight uniform
+
+fitting data knn
+KNN Accuracy 0.18623024830699775, with ngrams [1, 8], analyzer word, neighbors 20, weight distance
+
+fitting data knn
+KNN Accuracy 0.7773972602739726 with default settings
+fitting data knn
+KNN Accuracy 0.7861842105263158 with default settings
+fitting data knn
+KNN Accuracy 0.6095444685466378, with ngrams [1, 1], analyzer word, neighbors 20, weight uniform
+
+fitting data knn
+KNN Accuracy 0.5699774266365688, with ngrams [1, 1], analyzer word, neighbors 20, weight distance
+
+fitting data knn
+KNN Accuracy 0.9212328767123288 with default settings
+fitting data knn
+KNN Accuracy 0.8881578947368421 with default settings

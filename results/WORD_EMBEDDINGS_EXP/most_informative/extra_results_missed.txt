@@ -1,0 +1,6 @@
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular_retrofitted_25d_most_informative_MLP
+Accuracy: 0.7133105804082069, Loss: 0.7112917287764696
+
+
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular_retrofitted_25d_most_informative_LSTM
+Accuracy: 0.5631399321474719

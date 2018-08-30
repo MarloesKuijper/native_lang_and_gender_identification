@@ -1,0 +1,118 @@
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.231724        0.001456
+1             DecisionTree       0.426493        0.054948
+2                 AdaBoost       0.422770        0.060636
+3             RandomForest       0.405341        0.055838
+4               ExtraTrees       0.482834        0.074781
+5         GradientBoosting       0.642415        0.071301
+6  MultipleLayerPerceptron       0.698309        0.060530
+7              KNeighbours       0.765698        0.041313
+8       LogisticRegression       0.506237        0.041542
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.218033        0.000834
+1             DecisionTree       0.439095        0.039412
+2                 AdaBoost       0.444676        0.033053
+3             RandomForest       0.388305        0.033399
+4               ExtraTrees       0.477261        0.048751
+5         GradientBoosting       0.615709        0.041366
+6  MultipleLayerPerceptron       0.743110        0.062034
+7              KNeighbours       0.775169        0.113085
+8       LogisticRegression       0.523799        0.085879
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.247492        0.002127
+1             DecisionTree       0.444651        0.038883
+2                 AdaBoost       0.437063        0.043210
+3             RandomForest       0.435326        0.042386
+4               ExtraTrees       0.520038        0.048136
+5         GradientBoosting       0.655339        0.041936
+6  MultipleLayerPerceptron       0.731770        0.031999
+7              KNeighbours       0.800478        0.016218
+8       LogisticRegression       0.505765        0.019692
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.204572        0.002165
+1             DecisionTree       0.438795        0.036187
+2                 AdaBoost       0.440033        0.031222
+3             RandomForest       0.421087        0.045183
+4               ExtraTrees       0.527286        0.047177
+5         GradientBoosting       0.648629        0.023095
+6  MultipleLayerPerceptron       0.788283        0.048289
+7              KNeighbours       0.842132        0.028136
+8       LogisticRegression       0.573185        0.028702
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.598959        0.000681
+1             DecisionTree       0.630514        0.023186
+2                 AdaBoost       0.638695        0.033289
+3             RandomForest       0.650538        0.045123
+4               ExtraTrees       0.745584        0.046371
+5         GradientBoosting       0.740025        0.034692
+6  MultipleLayerPerceptron       0.875562        0.045000
+7              KNeighbours       0.871498        0.030003
+8       LogisticRegression       0.790876        0.076363
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.608282        0.000671
+1             DecisionTree       0.611944        0.029891
+2                 AdaBoost       0.615970        0.038992
+3             RandomForest       0.629879        0.042147
+4               ExtraTrees       0.737978        0.038322
+5         GradientBoosting       0.724044        0.053842
+6  MultipleLayerPerceptron       0.882350        0.034039
+7              KNeighbours       0.872072        0.064743
+8       LogisticRegression       0.796610        0.029519
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.589591        0.001804
+1             DecisionTree       0.645755        0.030399
+2                 AdaBoost       0.630205        0.033533
+3             RandomForest       0.687639        0.030767
+4               ExtraTrees       0.783053        0.033230
+5         GradientBoosting       0.763357        0.023515
+6  MultipleLayerPerceptron       0.888438        0.027702
+7              KNeighbours       0.893177        0.026803
+8       LogisticRegression       0.787039        0.029417
+                 Algorithm  CrossValMeans  CrossValerrors
+0                      SVC       0.617533        0.001347
+1             DecisionTree       0.626000        0.024047
+2                 AdaBoost       0.635096        0.031403
+3             RandomForest       0.666855        0.040025
+4               ExtraTrees       0.756462        0.031253
+5         GradientBoosting       0.760362        0.027517
+6  MultipleLayerPerceptron       0.904511        0.022068
+7              KNeighbours       0.909107        0.020666
+8       LogisticRegression       0.806471        0.025939
+
+
+###############################################################################
+Peregrine Cluster
+Job 1522918 for user 's2380250'
+Finished at: Thu Jun 28 21:31:39 CEST 2018
+
+Job details:
+============
+
+Name                : run_other_algorithms.sh
+User                : s2380250
+Partition           : gpu
+Nodes               : pg-gpu01
+Cores               : 12
+State               : COMPLETED
+Submit              : 2018-06-28T16:29:55
+Start               : 2018-06-28T16:29:56
+End                 : 2018-06-28T21:31:38
+Reserved walltime   : 10:30:00
+Used walltime       : 05:01:42
+Used CPU time       : 17:37:55 (efficiency: 29.22%)
+% User (Computation): 76.36%
+% System (I/O)      : 23.64%
+Mem reserved        : 8000M/node
+Max Mem used        : 6.91G (pg-gpu01)
+Max Disk Write      : 2.05G (pg-gpu01)
+Max Disk Read       : 2.21G (pg-gpu01)
+
+
+Acknowledgements:
+=================
+
+Please see this page if you want to acknowledge Peregrine in your publications:
+
+https://redmine.hpc.rug.nl/redmine/projects/peregrine/wiki/ScientificOutput
+
+################################################################################

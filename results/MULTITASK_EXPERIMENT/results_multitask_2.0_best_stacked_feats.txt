@@ -1,0 +1,227 @@
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_cross_genre_native_lang_tm_pos.csv
+predictions for males
+Accuracy: 0.29714285714285715
+F1-score: 0.21168168561960335
+predictions for females
+Accuracy: 0.12285714285714286
+F1-score: 0.05345430550501033
+730 730 730
+predictions mixed
+Accuracy: 0.24857142857142858
+F1-score: 0.160960728732715
+predictions entire dataset with gender as additional feature
+Accuracy: 0.2386117136659436
+F1-score: 0.18325509329809214
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.23142857142857143
+F1-score: 0.1464119629711708
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_cross_genre_native_lang_mt_posfunc.csv
+predictions for males
+Accuracy: 0.30704225352112674
+F1-score: 0.20447982889751148
+predictions for females
+Accuracy: 0.2507042253521127
+F1-score: 0.20355103574711414
+714 714 714
+predictions mixed
+Accuracy: 0.29775280898876405
+F1-score: 0.20758360058249503
+predictions entire dataset with gender as additional feature
+Accuracy: 0.2677966101694915
+F1-score: 0.20122949172235904
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.300561797752809
+F1-score: 0.20893638708931658
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_within_genre_native_lang_twitter_pos.csv
+predictions for males
+Accuracy: 0.859375
+F1-score: 0.8355866744463893
+predictions for females
+Accuracy: 0.828125
+F1-score: 0.8409094707341844
+480 479 479
+predictions mixed
+Accuracy: 0.859375
+F1-score: 0.8592164643635232
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8498293515358362
+F1-score: 0.8623171416718272
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.859375
+F1-score: 0.8554615573828097
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_within_genre_native_lang_medium_ling.csv
+predictions for males
+Accuracy: 0.8515625
+F1-score: 0.8371486099626195
+predictions for females
+Accuracy: 0.84375
+F1-score: 0.7732592319155627
+460 461 461
+predictions mixed
+Accuracy: 0.859375
+F1-score: 0.8281404861734155
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8491803278688524
+F1-score: 0.8284366586628811
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.84375
+F1-score: 0.8187766567194613
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_cross_genre_gender_tm_pos.csv
+predictions for nl
+Accuracy: 0.4716981132075472
+F1-score: 0.3733108108108108
+predictions for de
+Accuracy: 0.9433962264150944
+F1-score: 0.8835164835164835
+predictions for es
+Accuracy: 0.5094339622641509
+F1-score: 0.43709150326797386
+predictions for it
+Accuracy: 0.7169811320754716
+F1-score: 0.6272855133614628
+predictions for pt
+Accuracy: 0.7358490566037735
+F1-score: 0.4239130434782608
+predictions for ru
+Accuracy: 0.49056603773584906
+F1-score: 0.47176079734219273
+predictions for po
+Accuracy: 0.7358490566037735
+F1-score: 0.5315656565656566
+predictions for pr
+Accuracy: 0.5471698113207547
+F1-score: 0.4175824175824176
+predictions for hi
+Accuracy: 0.7924528301886793
+F1-score: 0.4421052631578947
+[0.00317765 0.99682235 0.33102098 0.66897902] male nl
+predictions mixed
+Accuracy: 0.6296296296296297
+F1-score: 0.4642857142857143
+predictions entire dataset with NL as additional feature
+Accuracy: 0.6420824295010846
+F1-score: 0.5248313343328336
+predictions smaller mixed dataset with NL as additional feature
+Accuracy: 0.6296296296296297
+F1-score: 0.4642857142857143
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_cross_genre_gender_mt_ling.csv
+predictions for nl
+Accuracy: 0.8653846153846154
+F1-score: 0.8326436781609196
+predictions for de
+Accuracy: 0.5961538461538461
+F1-score: 0.47474747474747475
+predictions for es
+Accuracy: 0.6923076923076923
+F1-score: 0.6918518518518519
+predictions for it
+Accuracy: 0.5769230769230769
+F1-score: 0.5606758832565284
+predictions for pt
+Accuracy: 0.5192307692307693
+F1-score: 0.4451557831839522
+predictions for ru
+Accuracy: 0.5
+F1-score: 0.47187499999999993
+predictions for po
+Accuracy: 0.6538461538461539
+F1-score: 0.5601503759398496
+predictions for pr
+Accuracy: 0.40384615384615385
+F1-score: 0.40185528756957334
+predictions for hi
+Accuracy: 0.46153846153846156
+F1-score: 0.3882352941176471
+[0.98006346 0.01993654 0.38501722 0.61498278] female nl
+predictions mixed
+Accuracy: 0.6111111111111112
+F1-score: 0.5871860211139425
+predictions entire dataset with NL as additional feature
+Accuracy: 0.6293785310734463
+F1-score: 0.5816230052578175
+predictions smaller mixed dataset with NL as additional feature
+Accuracy: 0.6296296296296297
+F1-score: 0.6103896103896104
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_within_genre_gender_twitter_posfunc.csv
+predictions for nl
+Accuracy: 1.0
+F1-score: 1.0
+predictions for de
+Accuracy: 1.0
+F1-score: 1.0
+predictions for es
+Accuracy: 1.0
+F1-score: 1.0
+predictions for it
+Accuracy: 1.0
+F1-score: 1.0
+predictions for pt
+Accuracy: 1.0
+F1-score: 1.0
+predictions for ru
+Accuracy: 0.8181818181818182
+F1-score: 0.8166666666666667
+predictions for po
+Accuracy: 0.9090909090909091
+F1-score: 0.905982905982906
+predictions for pr
+Accuracy: 0.9090909090909091
+F1-score: 0.8705882352941177
+predictions for hi
+Accuracy: 1.0
+F1-score: 1.0
+[0.03547762 0.96452238 0.05013076 0.94986924] male nl
+predictions mixed
+Accuracy: 0.8888888888888888
+F1-score: 0.8831168831168831
+predictions entire dataset with NL as additional feature
+Accuracy: 0.9453924914675768
+F1-score: 0.944301872445585
+predictions smaller mixed dataset with NL as additional feature
+Accuracy: 0.8888888888888888
+F1-score: 0.8831168831168831
+
+PREDICTIONS FOR ./results/best_stack_features/stacked_feats_within_genre_gender_medium_posfunc.csv
+predictions for nl
+Accuracy: 0.9375
+F1-score: 0.9372549019607843
+predictions for de
+Accuracy: 0.875
+F1-score: 0.4666666666666667
+predictions for es
+Accuracy: 0.875
+F1-score: 0.8545454545454545
+predictions for it
+Accuracy: 0.9375
+F1-score: 0.9227053140096619
+predictions for pt
+Accuracy: 0.75
+F1-score: 0.42857142857142855
+predictions for ru
+Accuracy: 0.9375
+F1-score: 0.9372549019607843
+predictions for po
+Accuracy: 0.9375
+F1-score: 0.9227053140096619
+predictions for pr
+Accuracy: 0.8125
+F1-score: 0.7922077922077921
+predictions for hi
+Accuracy: 0.8125
+F1-score: 0.7257142857142858
+[0.97197789 0.02802211 0.87343663 0.12656337] female nl
+predictions mixed
+Accuracy: 0.7222222222222222
+F1-score: 0.7213622291021671
+predictions entire dataset with NL as additional feature
+Accuracy: 0.8918032786885246
+F1-score: 0.886819822555072
+predictions smaller mixed dataset with NL as additional feature
+Accuracy: 0.7222222222222222
+F1-score: 0.7213622291021671

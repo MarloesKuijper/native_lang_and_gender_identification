@@ -1,0 +1,7 @@
+../my_data2/data_final_within_genre_native_lang_medium.csv
+Scores: 0.4622950824557758, 0.7213114761915363, with batch size 50 and epochs 40
+Scores: 0.5377049185213495, 0.7836065579633243, with batch size 50 and epochs 50
+Scores: 0.44590163963739987, 0.7081967222886008, with batch size 150 and epochs 40
+Scores: 0.4786885250787266, 0.711475411008616, with batch size 150 and epochs 50
+Scores: 0.4000000006839877, 0.6819672142873044, with batch size 250 and epochs 40
+Scores: 0.4491803283574151, 0.6918032796656499, with batch size 250 and epochs 50

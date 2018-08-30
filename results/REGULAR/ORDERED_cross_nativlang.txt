@@ -1,0 +1,435 @@
+F1-scores descending order
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10
+F1-score: 0.16680478811852398
+Accuracy: 0.2330198537095089
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20
+F1-score: 0.16631154642519286
+Accuracy: 0.22988505747126436
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10
+F1-score: 0.16397096068083203
+Accuracy: 0.23197492163009403
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20
+F1-score: 0.1600853806575019
+Accuracy: 0.22675026123301986
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 20
+F1-score: 0.1558127478121192
+Accuracy: 0.2110762800417973
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20
+F1-score: 0.15374175839896131
+Accuracy: 0.2330198537095089
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20
+F1-score: 0.1509954433283295
+Accuracy: 0.22048066875653083
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 10
+F1-score: 0.14976966511088322
+Accuracy: 0.20689655172413793
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 20
+F1-score: 0.14964357884872423
+Accuracy: 0.2058516196447231
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10
+F1-score: 0.1493761480205812
+Accuracy: 0.2309299895506792
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10
+F1-score: 0.14885987684393476
+Accuracy: 0.21839080459770116
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10
+F1-score: 0.1434145991357298
+Accuracy: 0.23406478578892373
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 10
+F1-score: 0.14308287035297715
+Accuracy: 0.20794148380355276
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20
+F1-score: 0.14200187253742302
+Accuracy: 0.22988505747126436
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 1
+F1-score: 0.14106928835375807
+Accuracy: 0.2173458725182863
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1
+F1-score: 0.1396411569829593
+Accuracy: 0.21003134796238246
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10
+F1-score: 0.13895950476318328
+Accuracy: 0.2330198537095089
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20
+F1-score: 0.13677060502742885
+Accuracy: 0.22988505747126436
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10
+F1-score: 0.13111781338432107
+Accuracy: 0.19122257053291536
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 20
+F1-score: 0.13033919903535254
+Accuracy: 0.19017763845350052
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 10
+F1-score: 0.1298044400308135
+Accuracy: 0.19435736677115986
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 20
+F1-score: 0.12905008759361675
+Accuracy: 0.19331243469174503
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 10
+F1-score: 0.12671702784417793
+Accuracy: 0.19017763845350052
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 20
+F1-score: 0.12620862360170185
+Accuracy: 0.18808777429467086
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 20
+F1-score: 0.12569548682454365
+Accuracy: 0.18808777429467086
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 1
+F1-score: 0.12411413843670391
+Accuracy: 0.2330198537095089
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 1
+F1-score: 0.12394205172087716
+Accuracy: 0.23510971786833856
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 1
+F1-score: 0.12374231415132386
+Accuracy: 0.2330198537095089
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 1
+F1-score: 0.1232725930400349
+Accuracy: 0.2309299895506792
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 1
+F1-score: 0.12035718454878487
+Accuracy: 0.18704284221525602
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 10
+F1-score: 0.11983370755911532
+Accuracy: 0.20376175548589343
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 10
+F1-score: 0.11672009687665004
+Accuracy: 0.2225705329153605
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 20
+F1-score: 0.11615679016151839
+Accuracy: 0.18495297805642633
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 10
+F1-score: 0.11465588833891648
+Accuracy: 0.17972831765935215
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 1
+F1-score: 0.11400728073632216
+Accuracy: 0.2225705329153605
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 20
+F1-score: 0.11322867488015285
+Accuracy: 0.20689655172413793
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 1
+F1-score: 0.11054186591895682
+Accuracy: 0.18286311389759666
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 20
+F1-score: 0.10953976129099766
+Accuracy: 0.1786833855799373
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 1
+F1-score: 0.10741875759587141
+Accuracy: 0.17763845350052246
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 10
+F1-score: 0.10698896538901338
+Accuracy: 0.17136886102403343
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 20
+F1-score: 0.10594632006370258
+Accuracy: 0.17345872518286312
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 1
+F1-score: 0.1053481147773263
+Accuracy: 0.17345872518286312
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 20
+F1-score: 0.1046154164210032
+Accuracy: 0.16927899686520376
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 10
+F1-score: 0.10459783473315648
+Accuracy: 0.1703239289446186
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 10
+F1-score: 0.10421837603403634
+Accuracy: 0.16823406478578892
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 1
+F1-score: 0.0987102020300374
+Accuracy: 0.16823406478578892
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 1
+F1-score: 0.08566930083888065
+Accuracy: 0.2058516196447231
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 1
+F1-score: 0.08435777213838129
+Accuracy: 0.15569487983281086
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 1
+F1-score: 0.07194774511847683
+Accuracy: 0.1452455590386625
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 10
+F1-score: 0.06034341368071624
+Accuracy: 0.1619644723092999
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 1
+F1-score: 0.05769633415807973
+Accuracy: 0.15987460815047022
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 20
+F1-score: 0.05688482100812356
+Accuracy: 0.15673981191222572
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 1
+F1-score: 0.04511710034582775
+Accuracy: 0.19122257053291536
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 1
+F1-score: 0.03664921465968587
+Accuracy: 0.1974921630094044
+
+
+Accuracy descending order
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 1
+Accuracy: 0.23510971786833856
+F1-score: 0.12394205172087716
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10
+Accuracy: 0.23406478578892373
+F1-score: 0.1434145991357298
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10
+Accuracy: 0.2330198537095089
+F1-score: 0.16680478811852398
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 1
+Accuracy: 0.2330198537095089
+F1-score: 0.12411413843670391
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20
+Accuracy: 0.2330198537095089
+F1-score: 0.15374175839896131
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 1
+Accuracy: 0.2330198537095089
+F1-score: 0.12374231415132386
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10
+Accuracy: 0.2330198537095089
+F1-score: 0.13895950476318328
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10
+Accuracy: 0.23197492163009403
+F1-score: 0.16397096068083203
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10
+Accuracy: 0.2309299895506792
+F1-score: 0.1493761480205812
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 1
+Accuracy: 0.2309299895506792
+F1-score: 0.1232725930400349
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20
+Accuracy: 0.22988505747126436
+F1-score: 0.16631154642519286
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20
+Accuracy: 0.22988505747126436
+F1-score: 0.14200187253742302
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20
+Accuracy: 0.22988505747126436
+F1-score: 0.13677060502742885
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20
+Accuracy: 0.22675026123301986
+F1-score: 0.1600853806575019
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 10
+Accuracy: 0.2225705329153605
+F1-score: 0.11672009687665004
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 1
+Accuracy: 0.2225705329153605
+F1-score: 0.11400728073632216
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20
+Accuracy: 0.22048066875653083
+F1-score: 0.1509954433283295
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10
+Accuracy: 0.21839080459770116
+F1-score: 0.14885987684393476
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 1
+Accuracy: 0.2173458725182863
+F1-score: 0.14106928835375807
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 20
+Accuracy: 0.2110762800417973
+F1-score: 0.1558127478121192
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1
+Accuracy: 0.21003134796238246
+F1-score: 0.1396411569829593
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 10
+Accuracy: 0.20794148380355276
+F1-score: 0.14308287035297715
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 20
+Accuracy: 0.20689655172413793
+F1-score: 0.11322867488015285
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 10
+Accuracy: 0.20689655172413793
+F1-score: 0.14976966511088322
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 1
+Accuracy: 0.2058516196447231
+F1-score: 0.08566930083888065
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 20
+Accuracy: 0.2058516196447231
+F1-score: 0.14964357884872423
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 10
+Accuracy: 0.20376175548589343
+F1-score: 0.11983370755911532
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 1
+Accuracy: 0.1974921630094044
+F1-score: 0.03664921465968587
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 10
+Accuracy: 0.19435736677115986
+F1-score: 0.1298044400308135
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 20
+Accuracy: 0.19331243469174503
+F1-score: 0.12905008759361675
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10
+Accuracy: 0.19122257053291536
+F1-score: 0.13111781338432107
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 1
+Accuracy: 0.19122257053291536
+F1-score: 0.04511710034582775
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 20
+Accuracy: 0.19017763845350052
+F1-score: 0.13033919903535254
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 10
+Accuracy: 0.19017763845350052
+F1-score: 0.12671702784417793
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 20
+Accuracy: 0.18808777429467086
+F1-score: 0.12620862360170185
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 20
+Accuracy: 0.18808777429467086
+F1-score: 0.12569548682454365
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 1
+Accuracy: 0.18704284221525602
+F1-score: 0.12035718454878487
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 20
+Accuracy: 0.18495297805642633
+F1-score: 0.11615679016151839
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 1
+Accuracy: 0.18286311389759666
+F1-score: 0.11054186591895682
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 10
+Accuracy: 0.17972831765935215
+F1-score: 0.11465588833891648
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 20
+Accuracy: 0.1786833855799373
+F1-score: 0.10953976129099766
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 1
+Accuracy: 0.17763845350052246
+F1-score: 0.10741875759587141
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 1
+Accuracy: 0.17345872518286312
+F1-score: 0.1053481147773263
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 20
+Accuracy: 0.17345872518286312
+F1-score: 0.10594632006370258
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 10
+Accuracy: 0.17136886102403343
+F1-score: 0.10698896538901338
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 10
+Accuracy: 0.1703239289446186
+F1-score: 0.10459783473315648
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 20
+Accuracy: 0.16927899686520376
+F1-score: 0.1046154164210032
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 1
+Accuracy: 0.16823406478578892
+F1-score: 0.0987102020300374
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 10
+Accuracy: 0.16823406478578892
+F1-score: 0.10421837603403634
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 10
+Accuracy: 0.1619644723092999
+F1-score: 0.06034341368071624
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 1
+Accuracy: 0.15987460815047022
+F1-score: 0.05769633415807973
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 20
+Accuracy: 0.15673981191222572
+F1-score: 0.05688482100812356
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 1
+Accuracy: 0.15569487983281086
+F1-score: 0.08435777213838129
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 1
+Accuracy: 0.1452455590386625
+F1-score: 0.07194774511847683
+

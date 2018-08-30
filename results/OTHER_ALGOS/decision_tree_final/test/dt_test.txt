@@ -1,0 +1,23 @@
+fitting data dt
+Decision Tree Accuracy 0.28633405639913234, with ngrams [1, 8], analyzer char, max_depth 5, min samples leaf 5
+
+fitting data dt
+Decision Tree Accuracy 0.3363431151241535, with ngrams [1, 6], analyzer char, max_depth 10, min samples leaf 10
+
+fitting data dt
+Decision Tree Accuracy 0.4212328767123288, with ngrams [1, 8], analyzer char, max_depth 10, min samples leaf 20
+
+fitting data dt
+Decision Tree Accuracy: 0.4375, with default settings
+fitting data dt
+Decision Tree Accuracy 0.6236442516268981, with ngrams [1, 8], analyzer char, max_depth 10, min samples leaf 5
+
+fitting data dt
+Decision Tree Accuracy 0.6106094808126411, with ngrams [1, 6], analyzer word, max_depth 5, min samples leaf 20
+
+fitting data dt
+Decision Tree Accuracy 0.636986301369863, with ngrams [1, 1], analyzer word, max_depth 5, min samples leaf 5
+
+fitting data dt
+Decision Tree Accuracy 0.6776315789473685, with ngrams [1, 2], analyzer word, max_depth 5, min samples leaf 5
+

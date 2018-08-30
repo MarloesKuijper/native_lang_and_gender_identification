@@ -1,0 +1,594 @@
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 1
+Accuracy: 0.6648590021691974
+(Macro) F1-score: 0.5179415332917092
+             precision    recall  f1-score   support
+
+     female       0.65      0.16      0.25       333
+       male       0.67      0.95      0.78       589
+
+avg / total       0.66      0.66      0.59       922
+
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 10
+Accuracy: 0.631236442516269
+(Macro) F1-score: 0.5508779570878415
+             precision    recall  f1-score   support
+
+     female       0.48      0.29      0.36       333
+       male       0.67      0.83      0.74       589
+
+avg / total       0.60      0.63      0.60       922
+
+
+SVM with ngram range (1, 1), analyzer word, kernel linear, C 20
+Accuracy: 0.6160520607375272
+(Macro) F1-score: 0.5423509220621887
+             precision    recall  f1-score   support
+
+     female       0.45      0.30      0.36       333
+       male       0.67      0.80      0.73       589
+
+avg / total       0.59      0.62      0.59       922
+
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 1
+Accuracy: 0.6388286334056399
+(Macro) F1-score: 0.38980807412309726
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.41      0.64      0.50       922
+
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 10
+Accuracy: 0.6442516268980477
+(Macro) F1-score: 0.4241713380453327
+             precision    recall  f1-score   support
+
+     female       0.63      0.04      0.07       333
+       male       0.64      0.99      0.78       589
+
+avg / total       0.64      0.64      0.52       922
+
+
+SVM with ngram range (1, 1), analyzer char, kernel linear, C 20
+Accuracy: 0.6247288503253796
+(Macro) F1-score: 0.4516432893289329
+             precision    recall  f1-score   support
+
+     female       0.41      0.09      0.14       333
+       male       0.64      0.93      0.76       589
+
+avg / total       0.56      0.62      0.54       922
+
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 1
+Accuracy: 0.665943600867679
+(Macro) F1-score: 0.525187265917603
+             precision    recall  f1-score   support
+
+     female       0.64      0.17      0.27       333
+       male       0.67      0.95      0.78       589
+
+avg / total       0.66      0.67      0.60       922
+
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 10
+Accuracy: 0.6453362255965293
+(Macro) F1-score: 0.5541315744718609
+             precision    recall  f1-score   support
+
+     female       0.52      0.27      0.35       333
+       male       0.67      0.86      0.76       589
+
+avg / total       0.62      0.65      0.61       922
+
+
+SVM with ngram range (1, 2), analyzer word, kernel linear, C 20
+Accuracy: 0.648590021691974
+(Macro) F1-score: 0.5630203914455398
+             precision    recall  f1-score   support
+
+     female       0.52      0.29      0.37       333
+       male       0.68      0.85      0.76       589
+
+avg / total       0.62      0.65      0.62       922
+
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 1
+Accuracy: 0.6388286334056399
+(Macro) F1-score: 0.38980807412309726
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.41      0.64      0.50       922
+
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 10
+Accuracy: 0.6279826464208242
+(Macro) F1-score: 0.46854681636610823
+             precision    recall  f1-score   support
+
+     female       0.44      0.11      0.18       333
+       male       0.65      0.92      0.76       589
+
+avg / total       0.57      0.63      0.55       922
+
+
+SVM with ngram range (1, 2), analyzer char, kernel linear, C 20
+Accuracy: 0.6193058568329718
+(Macro) F1-score: 0.4924078091106291
+             precision    recall  f1-score   support
+
+     female       0.43      0.17      0.24       333
+       male       0.65      0.88      0.75       589
+
+avg / total       0.57      0.62      0.56       922
+
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 1
+Accuracy: 0.6616052060737527
+(Macro) F1-score: 0.5090119613304932
+             precision    recall  f1-score   support
+
+     female       0.64      0.14      0.24       333
+       male       0.66      0.95      0.78       589
+
+avg / total       0.66      0.66      0.59       922
+
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 10
+Accuracy: 0.6453362255965293
+(Macro) F1-score: 0.5311565501765779
+             precision    recall  f1-score   support
+
+     female       0.52      0.21      0.30       333
+       male       0.67      0.89      0.76       589
+
+avg / total       0.61      0.65      0.60       922
+
+
+SVM with ngram range (1, 3), analyzer word, kernel linear, C 20
+Accuracy: 0.6442516268980477
+(Macro) F1-score: 0.5317042955805382
+             precision    recall  f1-score   support
+
+     female       0.52      0.21      0.30       333
+       male       0.67      0.89      0.76       589
+
+avg / total       0.61      0.64      0.60       922
+
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 1
+Accuracy: 0.6388286334056399
+(Macro) F1-score: 0.38980807412309726
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.41      0.64      0.50       922
+
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 10
+Accuracy: 0.6301518438177874
+(Macro) F1-score: 0.4965209885677042
+             precision    recall  f1-score   support
+
+     female       0.46      0.16      0.24       333
+       male       0.65      0.90      0.76       589
+
+avg / total       0.59      0.63      0.57       922
+
+
+SVM with ngram range (1, 3), analyzer char, kernel linear, C 20
+Accuracy: 0.6062906724511931
+(Macro) F1-score: 0.49355914045204796
+             precision    recall  f1-score   support
+
+     female       0.40      0.19      0.25       333
+       male       0.65      0.84      0.73       589
+
+avg / total       0.56      0.61      0.56       922
+
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 1
+Accuracy: 0.6507592190889371
+(Macro) F1-score: 0.4878520021252958
+             precision    recall  f1-score   support
+
+     female       0.58      0.12      0.20       333
+       male       0.66      0.95      0.78       589
+
+avg / total       0.63      0.65      0.57       922
+
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 10
+Accuracy: 0.6518438177874186
+(Macro) F1-score: 0.5384500222227422
+             precision    recall  f1-score   support
+
+     female       0.55      0.22      0.31       333
+       male       0.67      0.90      0.77       589
+
+avg / total       0.62      0.65      0.60       922
+
+
+SVM with ngram range (1, 4), analyzer word, kernel linear, C 20
+Accuracy: 0.6550976138828634
+(Macro) F1-score: 0.5407935046140546
+             precision    recall  f1-score   support
+
+     female       0.56      0.22      0.31       333
+       male       0.67      0.90      0.77       589
+
+avg / total       0.63      0.66      0.60       922
+
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 1
+Accuracy: 0.6388286334056399
+(Macro) F1-score: 0.38980807412309726
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.41      0.64      0.50       922
+
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 10
+Accuracy: 0.6117136659436009
+(Macro) F1-score: 0.4931016266155585
+             precision    recall  f1-score   support
+
+     female       0.41      0.18      0.25       333
+       male       0.65      0.86      0.74       589
+
+avg / total       0.56      0.61      0.56       922
+
+
+SVM with ngram range (1, 4), analyzer char, kernel linear, C 20
+Accuracy: 0.6106290672451193
+(Macro) F1-score: 0.5004520106550758
+             precision    recall  f1-score   support
+
+     female       0.42      0.20      0.27       333
+       male       0.65      0.85      0.74       589
+
+avg / total       0.57      0.61      0.57       922
+
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 1
+Accuracy: 0.6344902386117137
+(Macro) F1-score: 0.47425985993302916
+             precision    recall  f1-score   support
+
+     female       0.47      0.11      0.18       333
+       male       0.65      0.93      0.76       589
+
+avg / total       0.59      0.63      0.55       922
+
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 10
+Accuracy: 0.6323210412147505
+(Macro) F1-score: 0.5166750942888556
+             precision    recall  f1-score   support
+
+     female       0.48      0.20      0.28       333
+       male       0.66      0.88      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 5), analyzer word, kernel linear, C 20
+Accuracy: 0.6323210412147505
+(Macro) F1-score: 0.5193448925454616
+             precision    recall  f1-score   support
+
+     female       0.48      0.20      0.29       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 1
+Accuracy: 0.6399132321041214
+(Macro) F1-score: 0.39306023714161087
+             precision    recall  f1-score   support
+
+     female       1.00      0.00      0.01       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.77      0.64      0.50       922
+
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 10
+Accuracy: 0.6052060737527115
+(Macro) F1-score: 0.4874022482893451
+             precision    recall  f1-score   support
+
+     female       0.39      0.17      0.24       333
+       male       0.65      0.85      0.73       589
+
+avg / total       0.55      0.61      0.56       922
+
+
+SVM with ngram range (1, 5), analyzer char, kernel linear, C 20
+Accuracy: 0.6062906724511931
+(Macro) F1-score: 0.5025793535787695
+             precision    recall  f1-score   support
+
+     female       0.41      0.21      0.28       333
+       male       0.65      0.83      0.73       589
+
+avg / total       0.56      0.61      0.57       922
+
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 1
+Accuracy: 0.6268980477223427
+(Macro) F1-score: 0.46609028226675286
+             precision    recall  f1-score   support
+
+     female       0.43      0.11      0.17       333
+       male       0.65      0.92      0.76       589
+
+avg / total       0.57      0.63      0.55       922
+
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 10
+Accuracy: 0.6290672451193059
+(Macro) F1-score: 0.5117160642943417
+             precision    recall  f1-score   support
+
+     female       0.47      0.19      0.27       333
+       male       0.66      0.88      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 6), analyzer word, kernel linear, C 20
+Accuracy: 0.631236442516269
+(Macro) F1-score: 0.5185881370091897
+             precision    recall  f1-score   support
+
+     female       0.48      0.20      0.29       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 1
+Accuracy: 0.6442516268980477
+(Macro) F1-score: 0.40860450563204004
+             precision    recall  f1-score   support
+
+     female       0.86      0.02      0.04       333
+       male       0.64      1.00      0.78       589
+
+avg / total       0.72      0.64      0.51       922
+
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 10
+Accuracy: 0.613882863340564
+(Macro) F1-score: 0.5090815545132573
+             precision    recall  f1-score   support
+
+     female       0.43      0.21      0.28       333
+       male       0.65      0.84      0.74       589
+
+avg / total       0.57      0.61      0.57       922
+
+
+SVM with ngram range (1, 6), analyzer char, kernel linear, C 20
+Accuracy: 0.6062906724511931
+(Macro) F1-score: 0.5098351940457204
+             precision    recall  f1-score   support
+
+     female       0.42      0.23      0.29       333
+       male       0.65      0.82      0.73       589
+
+avg / total       0.57      0.61      0.57       922
+
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 1
+Accuracy: 0.6247288503253796
+(Macro) F1-score: 0.46480602884234684
+             precision    recall  f1-score   support
+
+     female       0.42      0.11      0.17       333
+       male       0.65      0.92      0.76       589
+
+avg / total       0.57      0.62      0.55       922
+
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 10
+Accuracy: 0.6268980477223427
+(Macro) F1-score: 0.5129244680328272
+             precision    recall  f1-score   support
+
+     female       0.46      0.20      0.28       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 7), analyzer word, kernel linear, C 20
+Accuracy: 0.6268980477223427
+(Macro) F1-score: 0.5129244680328272
+             precision    recall  f1-score   support
+
+     female       0.46      0.20      0.28       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.59      0.63      0.58       922
+
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 1
+Accuracy: 0.6475054229934925
+(Macro) F1-score: 0.42057990351055297
+             precision    recall  f1-score   support
+
+     female       0.83      0.03      0.06       333
+       male       0.65      1.00      0.78       589
+
+avg / total       0.71      0.65      0.52       922
+
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 10
+Accuracy: 0.6160520607375272
+(Macro) F1-score: 0.5041504618376276
+             precision    recall  f1-score   support
+
+     female       0.43      0.20      0.27       333
+       male       0.65      0.85      0.74       589
+
+avg / total       0.57      0.62      0.57       922
+
+
+SVM with ngram range (1, 7), analyzer char, kernel linear, C 20
+Accuracy: 0.6127982646420824
+(Macro) F1-score: 0.5083283666363436
+             precision    recall  f1-score   support
+
+     female       0.43      0.21      0.28       333
+       male       0.65      0.84      0.73       589
+
+avg / total       0.57      0.61      0.57       922
+
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 1
+Accuracy: 0.6193058568329718
+(Macro) F1-score: 0.45241902325368905
+             precision    recall  f1-score   support
+
+     female       0.39      0.09      0.15       333
+       male       0.64      0.92      0.75       589
+
+avg / total       0.55      0.62      0.54       922
+
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 10
+Accuracy: 0.6258134490238612
+(Macro) F1-score: 0.5094859849834151
+             precision    recall  f1-score   support
+
+     female       0.46      0.19      0.27       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.58      0.63      0.58       922
+
+
+SVM with ngram range (1, 8), analyzer word, kernel linear, C 20
+Accuracy: 0.6258134490238612
+(Macro) F1-score: 0.5094859849834151
+             precision    recall  f1-score   support
+
+     female       0.46      0.19      0.27       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.58      0.63      0.58       922
+
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 1
+Accuracy: 0.6518438177874186
+(Macro) F1-score: 0.4327567536487432
+             precision    recall  f1-score   support
+
+     female       0.88      0.04      0.08       333
+       male       0.65      1.00      0.79       589
+
+avg / total       0.73      0.65      0.53       922
+
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 10
+Accuracy: 0.6247288503253796
+(Macro) F1-score: 0.507381281810545
+             precision    recall  f1-score   support
+
+     female       0.45      0.19      0.27       333
+       male       0.66      0.87      0.75       589
+
+avg / total       0.58      0.62      0.57       922
+
+
+SVM with ngram range (1, 8), analyzer char, kernel linear, C 20
+Accuracy: 0.6214750542299349
+(Macro) F1-score: 0.5078605458563705
+             precision    recall  f1-score   support
+
+     female       0.45      0.20      0.27       333
+       male       0.65      0.86      0.74       589
+
+avg / total       0.58      0.62      0.57       922
+
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 1
+Accuracy: 0.648590021691974
+(Macro) F1-score: 0.4809316290998561
+             precision    recall  f1-score   support
+
+     female       0.57      0.11      0.19       333
+       male       0.65      0.95      0.78       589
+
+avg / total       0.62      0.65      0.56       922
+
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 10
+Accuracy: 0.6431670281995662
+(Macro) F1-score: 0.5171645366522191
+             precision    recall  f1-score   support
+
+     female       0.52      0.18      0.27       333
+       male       0.66      0.90      0.76       589
+
+avg / total       0.61      0.64      0.59       922
+
+
+SVM with ngram range (2, 3), analyzer word, kernel linear, C 20
+Accuracy: 0.6420824295010846
+(Macro) F1-score: 0.512019091976366
+             precision    recall  f1-score   support
+
+     female       0.51      0.17      0.26       333
+       male       0.66      0.91      0.76       589
+
+avg / total       0.61      0.64      0.58       922
+
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 1
+Accuracy: 0.648590021691974
+(Macro) F1-score: 0.4431744469546156
+             precision    recall  f1-score   support
+
+     female       0.66      0.06      0.10       333
+       male       0.65      0.98      0.78       589
+
+avg / total       0.65      0.65      0.54       922
+
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 10
+Accuracy: 0.6062906724511931
+(Macro) F1-score: 0.5050451423036254
+             precision    recall  f1-score   support
+
+     female       0.41      0.21      0.28       333
+       male       0.65      0.83      0.73       589
+
+avg / total       0.56      0.61      0.57       922
+
+
+SVM with ngram range (2, 3), analyzer char, kernel linear, C 20
+Accuracy: 0.5997830802603037
+(Macro) F1-score: 0.5017332964266414
+             precision    recall  f1-score   support
+
+     female       0.40      0.22      0.28       333
+       male       0.65      0.82      0.72       589
+
+avg / total       0.56      0.60      0.56       922
+
+

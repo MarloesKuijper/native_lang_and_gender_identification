@@ -1,0 +1,16 @@
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_regular_control_100d
+Accuracy: 0.2331887205614185, Loss: 3.494942305144933
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_regular_control_100d
+Accuracy: 0.1819209041063395, Loss: 3.4077080834383344
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_regular_control_100d
+Accuracy: 0.38566552911195334, Loss: 2.1602383156278435
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_regular_control_100d
+Accuracy: 0.3377049187167746, Loss: 2.6125775259049213
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_regular_control_100d
+Accuracy: 0.5976138833805176, Loss: 2.136773305704692
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_regular_control_100d
+Accuracy: 0.5954802260897254, Loss: 1.7818359835673188
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular_control_100d
+Accuracy: 0.8225255976764823, Loss: 0.8124724337672211
+Filename: results_within_genre_gender_medium_word_embedding_experiment_regular_control_100d
+Accuracy: 0.773770492584979, Loss: 1.1895846429418344

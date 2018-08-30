@@ -1,0 +1,13 @@
+../my_data2/data_final_within_genre_gender_medium.csv
+Scores: 0.6754098368472741, 0.21967213119639725, with batch size 50 and epochs 15
+Scores: 0.7278688530452916, 0.2754098367495615, with batch size 50 and epochs 20
+Scores: 0.6918032796656499, 0.3213114754586923, with batch size 50 and epochs 25
+Scores: 0.6590163942243232, 0.3311475410324628, with batch size 50 and epochs 30
+Scores: 0.6459016407122378, 0.22622950822114946, with batch size 150 and epochs 15
+Scores: 0.6459016401259625, 0.2426229508685284, with batch size 150 and epochs 20
+Scores: 0.6590163946151734, 0.21967213119639725, with batch size 150 and epochs 25
+Scores: 0.6721311483226838, 0.2524590164178708, with batch size 150 and epochs 30
+Scores: 0.613114754880061, 0.2065573770613944, with batch size 250 and epochs 15
+Scores: 0.6163934441863513, 0.2032786885490183, with batch size 250 and epochs 20
+Scores: 0.6688524597980937, 0.20000000002442814, with batch size 250 and epochs 25
+Scores: 0.6655737712735036, 0.21967213115975506, with batch size 250 and epochs 30

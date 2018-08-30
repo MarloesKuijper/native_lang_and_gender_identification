@@ -1,0 +1,32 @@
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_regular
+Accuracy: 0.2049891544008979, Loss: 3.9500657751865345
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_regular
+Accuracy: 0.1706214690780909, Loss: 4.1860797364833
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_regular
+Accuracy: 0.2969283276959084, Loss: 2.791087781203078
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_regular
+Accuracy: 0.21967213119639725, Loss: 2.919763020218396
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_regular
+Accuracy: 0.5509761383114564, Loss: 1.6755249310212126
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_regular
+Accuracy: 0.5966101700303245, Loss: 1.7821602603136484
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_regular
+Accuracy: 0.6348122868928486, Loss: 1.2263163320033623
+Filename: results_within_genre_gender_medium_word_embedding_experiment_regular
+Accuracy: 0.6098360663554707, Loss: 1.6618091278388851
+Filename: results_cross_genre_native_lang_tm_word_embedding_experiment_learner
+Accuracy: 0.16811279836161278, Loss: 5.831200140417269
+Filename: results_cross_genre_native_lang_mt_word_embedding_experiment_learner
+Accuracy: 0.1706214690780909, Loss: 5.288718172924667
+Filename: results_within_genre_native_lang_twitter_word_embedding_experiment_learner
+Accuracy: 0.21843003412969283, Loss: 4.452158268808098
+Filename: results_within_genre_native_lang_medium_word_embedding_experiment_learner
+Accuracy: 0.19016393467051085, Loss: 5.193301644872447
+Filename: results_cross_genre_gender_tm_word_embedding_experiment_learner
+Accuracy: 0.5444685472842152, Loss: 2.6310995680132554
+Filename: results_cross_genre_gender_mt_word_embedding_experiment_learner
+Accuracy: 0.5774011306170016, Loss: 3.010240692742127
+Filename: results_within_genre_gender_twitter_word_embedding_experiment_learner
+Accuracy: 0.5460750855276609, Loss: 2.3647141696650014
+Filename: results_within_genre_gender_medium_word_embedding_experiment_learner
+Accuracy: 0.593442623927945, Loss: 2.09623143399348

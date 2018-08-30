@@ -1,0 +1,1 @@
+KNN Accuracy 0.5699774266365688, with ngrams [1, 1], analyzer word, neighbors 20, weight distance

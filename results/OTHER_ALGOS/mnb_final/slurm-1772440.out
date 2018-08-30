@@ -1,0 +1,1334 @@
+fitting data mnb
+MNB Accuracy 0.21366594360086769, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.19739696312364424, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2039045553145336, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.19522776572668113, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.19088937093275488, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.19197396963123645, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.19305856832971802, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.1963123644251627, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.1984815618221258, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.19739696312364424, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.1984815618221258, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20281995661605207, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20498915401301518, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.20715835140997832, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20607375271149675, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2632768361581921, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.24745762711864408, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25649717514124293, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.25310734463276835, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.25084745762711863, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2621468926553672, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.26101694915254237, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25875706214689265, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25875706214689265, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25875706214689265, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25310734463276835, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25875706214689265, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25875706214689265, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2576271186440678, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25649717514124293, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2632768361581921, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.26440677966101694, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2497175141242938, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6075085324232082, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4061433447098976, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.39590443686006827, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.32081911262798635, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.27303754266211605, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2696245733788396, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.552901023890785, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4232081911262799, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3651877133105802, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.35494880546075086, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2764505119453925, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2696245733788396, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.552901023890785, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4232081911262799, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3583617747440273, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3651877133105802, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.27986348122866894, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2696245733788396, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.552901023890785, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4129692832764505, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3515358361774744, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3856655290102389, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.28668941979522183, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2764505119453925, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5392491467576792, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.41638225255972694, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3378839590443686, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3993174061433447, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2901023890784983, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2832764505119454, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5392491467576792, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.41638225255972694, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3310580204778157, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.41638225255972694, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.3003412969283277, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2832764505119454, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5426621160409556, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4129692832764505, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3310580204778157, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.43686006825938567, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.3003412969283277, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.28668941979522183, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5426621160409556, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.4061433447098976, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3242320819112628, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.447098976109215, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.3037542662116041, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2901023890784983, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5597269624573379, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.39590443686006827, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.3515358361774744, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.4232081911262799, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.29692832764505117, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.27986348122866894, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5573770491803278, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.3016393442622951, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.26229508196721313, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.21639344262295082, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.19672131147540983, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.1901639344262295, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.4524590163934426, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.28852459016393445, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.24918032786885247, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.22950819672131148, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.19344262295081968, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.1901639344262295, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.42295081967213116, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2786885245901639, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.23934426229508196, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.25573770491803277, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.20655737704918034, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.19344262295081968, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.40327868852459015, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2754098360655738, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2360655737704918, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.2786885245901639, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20655737704918034, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3901639344262295, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2721311475409836, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2360655737704918, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.28852459016393445, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.20655737704918034, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3836065573770492, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2721311475409836, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2360655737704918, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.29508196721311475, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3737704918032787, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2721311475409836, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2262295081967213, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3016393442622951, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3704918032786885, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2721311475409836, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2262295081967213, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3016393442622951, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.49508196721311476, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.28852459016393445, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2262295081967213, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.3475409836065574, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.21311475409836064, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.2098360655737705, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6095444685466378, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6182212581344902, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6193058568329718, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6193058568329718, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6193058568329718, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6193058568329718, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6193058568329718, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6127982646420824, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6203904555314533, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6101694915254238, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6033898305084746, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6022598870056497, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6045197740112994, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6033898305084746, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6022598870056497, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.615819209039548, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6033898305084746, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.607909604519774, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5966101694915255, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6067796610169491, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6022598870056497, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5977401129943503, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6112994350282486, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.607909604519774, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5943502824858757, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5988700564971752, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.8805460750853242, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6416382252559727, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6006825938566553, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6143344709897611, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5733788395904437, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5665529010238908, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7986348122866894, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6313993174061433, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6006825938566553, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6655290102389079, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5733788395904437, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5665529010238908, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7849829351535836, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6348122866894198, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6040955631399317, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6655290102389079, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5665529010238908, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5631399317406144, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7815699658703071, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6484641638225256, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6075085324232082, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6552901023890785, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5665529010238908, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7781569965870307, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6484641638225256, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6075085324232082, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6552901023890785, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7679180887372014, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6484641638225256, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6109215017064846, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6655290102389079, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.764505119453925, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6484641638225256, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6109215017064846, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6791808873720137, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7610921501706485, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6484641638225256, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6109215017064846, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.689419795221843, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.590443686006826, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5699658703071673, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.8088737201365188, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6757679180887372, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.6279863481228669, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7474402730375427, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5767918088737202, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5631399317406144, with ngrams (2, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.839344262295082, with ngrams (1, 1), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.6131147540983607, with ngrams (1, 1), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 1), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5836065573770491, with ngrams (1, 1), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 1), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 1), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7704918032786885, with ngrams (1, 2), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 2), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 2), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5901639344262295, with ngrams (1, 2), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 2), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 2), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.740983606557377, with ngrams (1, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5836065573770491, with ngrams (1, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6131147540983607, with ngrams (1, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 3), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7049180327868853, with ngrams (1, 4), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5836065573770491, with ngrams (1, 4), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 4), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6065573770491803, with ngrams (1, 4), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 4), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 4), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6852459016393443, with ngrams (1, 5), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 5), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 5), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5934426229508196, with ngrams (1, 5), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 5), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 5), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6622950819672131, with ngrams (1, 6), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5836065573770491, with ngrams (1, 6), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 6), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 6), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 6), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 6), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6524590163934426, with ngrams (1, 7), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5836065573770491, with ngrams (1, 7), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 7), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 7), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 7), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 7), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.6491803278688525, with ngrams (1, 8), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 8), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 8), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.5868852459016394, with ngrams (1, 8), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 8), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (1, 8), analyzer char, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.7836065573770492, with ngrams (2, 3), analyzer word, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.5967213114754099, with ngrams (2, 3), analyzer word, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (2, 3), analyzer word, alpha 2
+
+fitting data mnb
+MNB Accuracy 0.8, with ngrams (2, 3), analyzer char, alpha 0.1
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (2, 3), analyzer char, alpha 1.0
+
+fitting data mnb
+MNB Accuracy 0.580327868852459, with ngrams (2, 3), analyzer char, alpha 2
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 1772440 for user 's2380250'
+Finished at: Sun Jul 22 23:02:02 CEST 2018
+
+Job details:
+============
+
+Name                : run_other_algorithms.sh
+User                : s2380250
+Partition           : gpu
+Nodes               : pg-gpu03
+Cores               : 12
+State               : COMPLETED
+Submit              : 2018-07-22T22:05:45
+Start               : 2018-07-22T22:05:45
+End                 : 2018-07-22T23:02:02
+Reserved walltime   : 16:30:00
+Used walltime       : 00:56:17
+Used CPU time       : 00:56:12 (efficiency:  8.32%)
+% User (Computation): 97.48%
+% System (I/O)      :  2.52%
+Mem reserved        : 80000M/node
+Max Mem used        : 1.34G (pg-gpu03)
+Max Disk Write      : 102.40K (pg-gpu03)
+Max Disk Read       : 160.34M (pg-gpu03)
+
+
+Acknowledgements:
+=================
+
+Please see this page if you want to acknowledge Peregrine in your publications:
+
+https://redmine.hpc.rug.nl/redmine/projects/peregrine/wiki/ScientificOutput
+
+################################################################################

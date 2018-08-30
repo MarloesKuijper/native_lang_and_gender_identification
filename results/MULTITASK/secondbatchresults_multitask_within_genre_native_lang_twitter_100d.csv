@@ -1,0 +1,13 @@
+../my_data2/data_final_within_genre_native_lang_twitter.csv
+Scores: 0.3959044372669259, 0.6143344709897611, with batch size 50 and epochs 15
+Scores: 0.42662116081641394, 0.6723549490088896, with batch size 50 and epochs 20
+Scores: 0.4129692834798793, 0.7133105804082069, with batch size 50 and epochs 25
+Scores: 0.5494880550143662, 0.7167235496914834, with batch size 50 and epochs 30
+Scores: 0.34129692837850223, 0.6279863483262957, with batch size 150 and epochs 15
+Scores: 0.3447098980177791, 0.6689419797256131, with batch size 150 and epochs 20
+Scores: 0.3651877134122946, 0.6313993176095721, with batch size 150 and epochs 25
+Scores: 0.4129692833781649, 0.6518771331058021, with batch size 150 and epochs 30
+Scores: 0.2764505121488213, 0.5802047783604254, with batch size 250 and epochs 15
+Scores: 0.32423208231812045, 0.5836177476437019, with batch size 250 and epochs 20
+Scores: 0.32423208231812045, 0.6348122868928486, with batch size 250 and epochs 25
+Scores: 0.3788395905454004, 0.6587030718757838, with batch size 250 and epochs 30

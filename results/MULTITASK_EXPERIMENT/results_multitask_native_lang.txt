@@ -1,0 +1,71 @@
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_native_lang_tm.csv
+predictions for males
+Accuracy: 0.1590909090909091
+F1-score: 0.045677947730537266
+predictions for females
+Accuracy: 0.08285714285714285
+F1-score: 0.04546877222933562
+Index  445
+predictions mixed
+Accuracy: 0.21258134490238612
+F1-score: 0.08069257083517727
+predictions entire dataset with gender as additional feature
+Accuracy: 0.1681127982646421
+F1-score: 0.10180953562189848
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.19956616052060738
+F1-score: 0.0757264469655355
+
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_native_lang_mt.csv
+predictions for males
+Accuracy: 0.2509433962264151
+F1-score: 0.16700289195930487
+predictions for females
+Accuracy: 0.19718309859154928
+F1-score: 0.11069024209479204
+Index  481
+predictions mixed
+Accuracy: 0.3182844243792325
+F1-score: 0.19823401744537658
+predictions entire dataset with gender as additional feature
+Accuracy: 0.25875706214689265
+F1-score: 0.201204376575307
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.35214446952595935
+F1-score: 0.21888772533882403
+
+PREDICTIONS FOR ./my_data2/data_final_within_genre_native_lang_twitter.csv
+predictions for males
+Accuracy: 0.8303030303030303
+F1-score: 0.7918016885194626
+predictions for females
+Accuracy: 0.8203125
+F1-score: 0.8421390229533776
+Index  145
+predictions mixed
+Accuracy: 0.7054794520547946
+F1-score: 0.6713167822222016
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8361774744027304
+F1-score: 0.8313497017923265
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.6232876712328768
+F1-score: 0.6226526246008236
+
+PREDICTIONS FOR ./my_data2/data_final_within_genre_native_lang_medium.csv
+predictions for males
+Accuracy: 0.8305084745762712
+F1-score: 0.8299483342358696
+predictions for females
+Accuracy: 0.765625
+F1-score: 0.7008278717080414
+Index  189
+predictions mixed
+Accuracy: 0.6907894736842105
+F1-score: 0.6573584700532812
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8032786885245902
+F1-score: 0.8008934680905305
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.5855263157894737
+F1-score: 0.559758201353946

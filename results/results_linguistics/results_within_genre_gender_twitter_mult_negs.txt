@@ -1,0 +1,66 @@
+SVM with kernel linear, C 1
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+
+SVM with kernel linear, C 10
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+
+SVM with kernel linear, C 20
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+
+SVM with kernel rbf, C 1
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+
+SVM with kernel rbf, C 10
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+
+SVM with kernel rbf, C 20
+Accuracy: 0.5631399317406144
+(Macro) F1-score: 0.36026200873362446
+             precision    recall  f1-score   support
+
+     female       0.00      0.00      0.00       128
+       male       0.56      1.00      0.72       165
+
+avg / total       0.32      0.56      0.41       293
+
+

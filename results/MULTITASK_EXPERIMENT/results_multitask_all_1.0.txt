@@ -1,0 +1,236 @@
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_native_lang_tm.csv
+predictions for males
+Accuracy: 0.1590909090909091
+F1-score: 0.045677947730537266
+predictions for females
+Accuracy: 0.08285714285714285
+F1-score: 0.04546877222933562
+Index  445
+885 1041 730
+predictions mixed
+Accuracy: 0.21258134490238612
+F1-score: 0.08069257083517727
+predictions entire dataset with gender as additional feature
+Accuracy: 0.1681127982646421
+F1-score: 0.10180953562189848
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.19956616052060738
+F1-score: 0.0757264469655355
+
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_native_lang_mt.csv
+predictions for males
+Accuracy: 0.2509433962264151
+F1-score: 0.16700289195930487
+predictions for females
+Accuracy: 0.19718309859154928
+F1-score: 0.11069024209479204
+Index  481
+922 1130 714
+predictions mixed
+Accuracy: 0.3182844243792325
+F1-score: 0.19823401744537658
+predictions entire dataset with gender as additional feature
+Accuracy: 0.25875706214689265
+F1-score: 0.201204376575307
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.35214446952595935
+F1-score: 0.21888772533882403
+PREDICTIONS FOR ./my_data2/data_final_within_genre_native_lang_twitter.csv
+predictions for males
+Accuracy: 0.8303030303030303
+F1-score: 0.7918016885194626
+predictions for females
+Accuracy: 0.8203125
+F1-score: 0.8421390229533776
+Index  145
+594 707 479
+predictions mixed
+Accuracy: 0.7054794520547946
+F1-score: 0.6713167822222016
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8361774744027304
+F1-score: 0.8313497017923265
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.6232876712328768
+F1-score: 0.6226526246008236
+PREDICTIONS FOR ./my_data2/data_final_within_genre_native_lang_medium.csv
+predictions for males
+Accuracy: 0.8305084745762712
+F1-score: 0.8299483342358696
+predictions for females
+Accuracy: 0.765625
+F1-score: 0.7008278717080414
+Index  189
+617 774 461
+predictions mixed
+Accuracy: 0.6907894736842105
+F1-score: 0.6573584700532812
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8032786885245902
+F1-score: 0.8008934680905305
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.5855263157894737
+F1-score: 0.559758201353946
+automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP one NN VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP one NN VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP one NN VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP one NN VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NNS VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP one NN VBD me and NNP NNS VBD me NNP NNP automatically VBN by NNP NNP NN NNP NNP NNP NNP NNP NNP and some NNS VBD me NNP VBN by NNP NNP NNP NNP NNP NNP NNP VBD NNP NNP and some NNS VBD me NNP VBN by NNP NNP NNP NNP NNP NN NNP NNP and NNP NNP VBD me NNP VBN by NNP NNP NNP NNS VBP caitlinbesei NNP NN NNP NNP and some NNS VBD me NNP VBN by NNP NNP NNP NNP NNP NNP NNP NNP NNP NNP and some NNS VBD me NNP VBN by NNP NNP NNP NNP NNP NN NNP NNP NNP NN and NNP NN VBD me NNP VBN by NNP NNP NNP noxxious_mc VB NNP NNP NN NNP NNP and
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_gender_tm.csv
+predictions for nl
+Accuracy: 0.5368421052631579
+F1-score: 0.528003613369467
+predictions for de
+Accuracy: 0.7443609022556391
+F1-score: 0.6251657824933687
+predictions for es
+Accuracy: 0.5096153846153846
+F1-score: 0.3696969696969697
+predictions for it
+Accuracy: 0.5094339622641509
+F1-score: 0.5092592592592593
+predictions for pt
+Accuracy: 0.7647058823529411
+F1-score: 0.4333333333333333
+predictions for ru
+Accuracy: 0.48623853211009177
+F1-score: 0.44710144927536233
+predictions for po
+Accuracy: 0.6081081081081081
+F1-score: 0.5737835153922543
+predictions for pr
+Accuracy: 0.3125
+F1-score: 0.2764493665575971
+predictions for hi
+Accuracy: 0.7848101265822784
+F1-score: 0.4397163120567376
+NN through some VBN European NNS , I 'll VB , these NNS VBP sick . NNP in NN for some NN NN ! NN I VBP VBG a NN about NN NN in NNP NNP ! I 'll VB VBG some of my urban NN and NN NNS . NNP in NN to my NNP or NNP to VB along and VB me VB . VB an NN on this NNP NN for the specific NN NN @ VBZ VBP the NN VBZ VBG out sick ! Actually I VBP VBG the other NN that I VBD at the NN of the NN into a NNP NNP NN . I VBP I VBP my NN VBG NNS ! Now VBG on a new NN for the NN . NNP in next NNP at NNP NNP for some live NNP NNP NNP NN NN with NNP NNP ! NNP NNP VBZ still VBG weird NNS , VB NN me on my NNP instead ! NNP What VBP you VB to VB in NNS NN NN NN ? What VBP you VB VBP to VB tonight during the NN ? NNP . NNP NNP NN NNP . NNP NNP NNP on NN new NN ! # soundtrack # NN NNP NNP , NNP NNP NNP NNP NNP ... well almost from NN ! NN : NNP via NNP NNP NNP VBG on NNP NN because NNP VBZ VBG and VBG all NNS of weird NNS ... NNP NNP NN VB VBN in a NN VBG livestream some NN ? NNP NN , I VBP so many NNS that I VBP over the NN of NNP NNS that I never VBD . VB me VB and maybe I 'll VB one NN ! @ NNP NNP NNP Like the big NN NNS you would VB in cinematic NN or some electronic NNS ? male nl
+Index  98
+NN through some VBN European NNS , I 'll VB , these NNS VBP sick . NNP in NN for some NN NN ! NN I VBP VBG a NN about NN NN in NNP NNP ! I 'll VB VBG some of my urban NN and NN NNS . NNP in NN to my NNP or NNP to VB along and VB me VB . VB an NN on this NNP NN for the specific NN NN @ VBZ VBP the NN VBZ VBG out sick ! Actually I VBP VBG the other NN that I VBD at the NN of the NN into a NNP NNP NN . I VBP I VBP my NN VBG NNS ! Now VBG on a new NN for the NN . NNP in next NNP at NNP NNP for some live NNP NNP NNP NN NN with NNP NNP ! NNP NNP VBZ still VBG weird NNS , VB NN me on my NNP instead ! NNP What VBP you VB to VB in NNS NN NN NN ? What VBP you VB VBP to VB tonight during the NN ? NNP . NNP NNP NN NNP . NNP NNP NNP on NN new NN ! # soundtrack # NN NNP NNP , NNP NNP NNP NNP NNP ... well almost from NN ! NN : NNP via NNP NNP NNP VBG on NNP NN because NNP VBZ VBG and VBG all NNS of weird NNS ... NNP NNP NN VB VBN in a NN VBG livestream some NN ? NNP NN , I VBP so many NNS that I VBP over the NN of NNP NNS that I never VBD . VB me VB and maybe I 'll VB one NN ! @ NNP NNP NNP Like the big NN NNS you would VB in cinematic NN or some electronic NNS ? male nl
+predictions mixed
+Accuracy: 0.46601941747572817
+F1-score: 0.44919786096256675
+predictions entire dataset with gender as additional feature
+Accuracy: 0.6073752711496746
+F1-score: 0.5367502956346011
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.47572815533980584
+F1-score: 0.4572599531615925
+/home/s2380250/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+PREDICTIONS FOR ./my_data2/data_final_cross_genre_gender_mt.csv
+predictions for nl
+Accuracy: 0.751131221719457
+F1-score: 0.6730505420017754
+predictions for de
+Accuracy: 0.6263736263736264
+F1-score: 0.45528169014084513
+predictions for es
+Accuracy: 0.5961538461538461
+F1-score: 0.44708860759493674
+predictions for it
+Accuracy: 0.6557377049180327
+F1-score: 0.5793103448275863
+predictions for pt
+Accuracy: 0.5428571428571428
+F1-score: 0.35185185185185186
+predictions for ru
+Accuracy: 0.4098360655737705
+F1-score: 0.3304878048780488
+predictions for po
+Accuracy: 0.6434108527131783
+F1-score: 0.3915094339622642
+predictions for pr
+Accuracy: 0.16666666666666666
+F1-score: 0.16408668730650153
+predictions for hi
+Accuracy: 0.4909090909090909
+F1-score: 0.3292682926829268
+every polling station in Catalonia , emanating that finally after a life time of oppression , first from dictator Franco and later the central government in Madrid , the Catalan spirit is soaring higher than ever . Mothers smiling about their plan to occupy a polling station at a school , the day before the referendum , not afraid to use their own children in the battle tactics , as they considered to let them spend the night there in their sleeping bags . The population of Vic rising up as one man , pushing the first two lines of scrambling Spanish policemen backwards as they sing and move forward with impressive pathos . They all seem to know only one thing : we ’ re writing history , this is the play we have been preparing for our whole lives , and we will walk this road together , even if it would be the last thing we do . How do you fight a spirit like this , when all that you do seems to work to your disadvantage ? Of course you have to send police to make sure an illegal vote would be prevented , because that ’ s what any central government would have to do . You don ’ t have another choice , now that the vote has been declared illegal by the court of Spain . It ’ s simply against the law . But just as inevitable , there will also be violent images that will go viral . Like the image of an old lady , after being beat up by the police , with blood on her face . These images will make the sympathy go to the Catalans , for sure . Emotions and images are always stronger female nl
+Index  117
+every polling station in Catalonia , emanating that finally after a life time of oppression , first from dictator Franco and later the central government in Madrid , the Catalan spirit is soaring higher than ever . Mothers smiling about their plan to occupy a polling station at a school , the day before the referendum , not afraid to use their own children in the battle tactics , as they considered to let them spend the night there in their sleeping bags . The population of Vic rising up as one man , pushing the first two lines of scrambling Spanish policemen backwards as they sing and move forward with impressive pathos . They all seem to know only one thing : we ’ re writing history , this is the play we have been preparing for our whole lives , and we will walk this road together , even if it would be the last thing we do . How do you fight a spirit like this , when all that you do seems to work to your disadvantage ? Of course you have to send police to make sure an illegal vote would be prevented , because that ’ s what any central government would have to do . You don ’ t have another choice , now that the vote has been declared illegal by the court of Spain . It ’ s simply against the law . But just as inevitable , there will also be violent images that will go viral . Like the image of an old lady , after being beat up by the police , with blood on her face . These images will make the sympathy go to the Catalans , for sure . Emotions and images are always stronger female nl
+predictions mixed
+Accuracy: 0.5858585858585859
+F1-score: 0.5439838220424671
+predictions entire dataset with gender as additional feature
+Accuracy: 0.6101694915254238
+F1-score: 0.5714550387455455
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.5757575757575758
+F1-score: 0.5296380090497738
+PREDICTIONS FOR ./my_data2/data_final_within_genre_gender_twitter.csv
+predictions for nl
+Accuracy: 0.9493670886075949
+F1-score: 0.9351395730706076
+predictions for de
+Accuracy: 0.9310344827586207
+F1-score: 0.9310344827586207
+predictions for es
+Accuracy: 1.0
+F1-score: 1.0
+predictions for it
+Accuracy: 0.95
+F1-score: 0.9430199430199431
+predictions for pt
+Accuracy: 0.7333333333333333
+F1-score: 0.7321428571428571
+predictions for ru
+Accuracy: 0.9545454545454546
+F1-score: 0.9544513457556936
+predictions for po
+Accuracy: 0.9024390243902439
+F1-score: 0.8915343915343915
+predictions for pr
+Accuracy: 0.9285714285714286
+F1-score: 0.8782608695652174
+predictions for hi
+Accuracy: 1.0
+F1-score: 1.0
+seems to be the only code sample online yet , #Haskell-like syntax w / funky named RP ops ( zipDynWith ) @mattpodwysocki @Fengol It's like monads . You lose the ability to explain it from a novice perspective once you had that first AHA ... @andrestaltz Except non-techies knowing the practice of SL might not identify the code source as ( in ) legitimate .. not used to github etc . Do agree though @andrestaltz If non-technical people all start side-loading it can form a potential security risk though , if they can't assess whether the code is safe @jensschauder Sad that politics gets in the way of science / sharing knowledge @thomvis @headinthebox Mind blowing , right ;) So URL is basically creating Eriks own version / vision of the target language @gousiosg Very glad to have you as my rubber duck ! URL @onyame @CoolSWEng Fireworks ! Small projectiles of source code send over VTNUM terminals causing waves of electrons and magnetic bursts onto tape . @paul_irish Sitting at the tip of my chair the whole time . So many new nice debugging features . Especially love breakpoint gestures and nodejs debugger Seems that people don't know rxjs ' WebsocketSubject , no more wiring that yourself URL @BenLesh Githubs tags are ideal for this ! Just use this : URL That is of course assuming all large libs are on Github & use tags … @_jayphelps @m_podlasin @moroshko @rkoutnik Also relevant : Reactive Inspector for REscala , w / amazing features I ’ d wish we had for #RxJS URL URL @_jayphelps @m_podlasin @moroshko @rkoutnik Any other demo ’ s yet ? @moroshko ( see timeline ) and I ( URL shared stuff . Goals : learning / debugging / <others?> @bsorrentinoJ @markvanstraten @BenLesh @andrestaltz Thanks @bsorrentinoJ ! male nl
+Index  29
+seems to be the only code sample online yet , #Haskell-like syntax w / funky named RP ops ( zipDynWith ) @mattpodwysocki @Fengol It's like monads . You lose the ability to explain it from a novice perspective once you had that first AHA ... @andrestaltz Except non-techies knowing the practice of SL might not identify the code source as ( in ) legitimate .. not used to github etc . Do agree though @andrestaltz If non-technical people all start side-loading it can form a potential security risk though , if they can't assess whether the code is safe @jensschauder Sad that politics gets in the way of science / sharing knowledge @thomvis @headinthebox Mind blowing , right ;) So URL is basically creating Eriks own version / vision of the target language @gousiosg Very glad to have you as my rubber duck ! URL @onyame @CoolSWEng Fireworks ! Small projectiles of source code send over VTNUM terminals causing waves of electrons and magnetic bursts onto tape . @paul_irish Sitting at the tip of my chair the whole time . So many new nice debugging features . Especially love breakpoint gestures and nodejs debugger Seems that people don't know rxjs ' WebsocketSubject , no more wiring that yourself URL @BenLesh Githubs tags are ideal for this ! Just use this : URL That is of course assuming all large libs are on Github & use tags … @_jayphelps @m_podlasin @moroshko @rkoutnik Also relevant : Reactive Inspector for REscala , w / amazing features I ’ d wish we had for #RxJS URL URL @_jayphelps @m_podlasin @moroshko @rkoutnik Any other demo ’ s yet ? @moroshko ( see timeline ) and I ( URL shared stuff . Goals : learning / debugging / <others?> @bsorrentinoJ @markvanstraten @BenLesh @andrestaltz Thanks @bsorrentinoJ ! male nl
+predictions mixed
+Accuracy: 0.75
+F1-score: 0.7490196078431373
+predictions entire dataset with gender as additional feature
+Accuracy: 0.9419795221843004
+F1-score: 0.9405132982217286
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.75
+F1-score: 0.7408906882591093
+PREDICTIONS FOR ./my_data2/data_final_within_genre_gender_medium.csv
+predictions for nl
+Accuracy: 0.9827586206896551
+F1-score: 0.9825037707390649
+predictions for de
+Accuracy: 0.8666666666666667
+F1-score: 0.6296296296296297
+predictions for es
+Accuracy: 0.9069767441860465
+F1-score: 0.9057017543859649
+predictions for it
+Accuracy: 1.0
+F1-score: 1.0
+predictions for pt
+Accuracy: 0.75
+F1-score: 0.5670995670995671
+predictions for ru
+Accuracy: 0.9024390243902439
+F1-score: 0.9009661835748792
+predictions for po
+Accuracy: 0.7857142857142857
+F1-score: 0.7142857142857143
+predictions for pr
+Accuracy: 0.96875
+F1-score: 0.967967967967968
+predictions for hi
+Accuracy: 0.9565217391304348
+F1-score: 0.930930930930931
+take it personally . Human mediocrity and overstimulation makes you develop weird behaviours that are a little too close to obsessive compulsive disorders , such as staring at things . You think you might have ADHD , which is practically the new AIDS . You ’ re looking for guidance . What ’ s the next move when you don ’ t know what the game is ? Well , for starters , reading the following list could help you identify what the random accomplishments and realities of your daily life ( could ) truly look like . Today : Surviving social life ► Make it a habit to say that you ’ re busy and important . You ’ re not much available due to a combination of holidays , social popularity , part-time work , parental leave , and home-schooling your kids . Also , be a part-time feminist : you ’ re way too busy for more . And life is just easier this way . ► Being mean , witty and sarcastic is popular and likeable . Ask a married couple why they got married in the first place . If their answer is : “ Well , because we ’ ve got kids of course ” , laugh until you make them cry . ► Challenge social pressure and the boring rules of the establishment for a whole week . Refuse to drink alcohol and get away with it by saying you ’ re pregnant and pro-life . Wear a costume that consists of a stained , oversized hoodie and purple sweat pants , and go get a burger at Burger King . ► Find out the worst things you can say to every nationality . For example , tell a Dutch person that you female nl
+Index  37
+take it personally . Human mediocrity and overstimulation makes you develop weird behaviours that are a little too close to obsessive compulsive disorders , such as staring at things . You think you might have ADHD , which is practically the new AIDS . You ’ re looking for guidance . What ’ s the next move when you don ’ t know what the game is ? Well , for starters , reading the following list could help you identify what the random accomplishments and realities of your daily life ( could ) truly look like . Today : Surviving social life ► Make it a habit to say that you ’ re busy and important . You ’ re not much available due to a combination of holidays , social popularity , part-time work , parental leave , and home-schooling your kids . Also , be a part-time feminist : you ’ re way too busy for more . And life is just easier this way . ► Being mean , witty and sarcastic is popular and likeable . Ask a married couple why they got married in the first place . If their answer is : “ Well , because we ’ ve got kids of course ” , laugh until you make them cry . ► Challenge social pressure and the boring rules of the establishment for a whole week . Refuse to drink alcohol and get away with it by saying you ’ re pregnant and pro-life . Wear a costume that consists of a stained , oversized hoodie and purple sweat pants , and go get a burger at Burger King . ► Find out the worst things you can say to every nationality . For example , tell a Dutch person that you female nl
+predictions mixed
+Accuracy: 0.6285714285714286
+F1-score: 0.6236559139784947
+predictions entire dataset with gender as additional feature
+Accuracy: 0.8819672131147541
+F1-score: 0.8773787188421336
+predictions smaller mixed dataset with gender as additional feature
+Accuracy: 0.6857142857142857
+F1-score: 0.6846846846846848

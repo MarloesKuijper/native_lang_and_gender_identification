@@ -1,0 +1,7 @@
+../my_data2/data_final_within_genre_native_lang_twitter.csv
+Scores: 0.47098976149900784, 0.7576791810908008, with batch size 50 and epochs 40
+Scores: 0.5324232083945551, 0.7883959048437177, with batch size 50 and epochs 50
+Scores: 0.5290102390095642, 0.6860068259385665, with batch size 150 and epochs 40
+Scores: 0.47098976149900784, 0.7133105804082069, with batch size 150 and epochs 50
+Scores: 0.4027303758334788, 0.6518771331058021, with batch size 250 and epochs 40
+Scores: 0.4607508534457496, 0.7235494882580363, with batch size 250 and epochs 50

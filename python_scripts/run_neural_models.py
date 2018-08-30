@@ -104,7 +104,7 @@ def run_final_lstm_model(vocab_size, t, embeddings_index, input_length, dim, pad
     test_predictions = []
     with open("results_final_lstm_{0}.txt".format(args.name), "w", encoding="utf-8") as outfile:
         if args.avg:
-            for i in range(1,3):
+            for i in range(1,11):
                 if args.original:  
                     # define model
                     model = Sequential()

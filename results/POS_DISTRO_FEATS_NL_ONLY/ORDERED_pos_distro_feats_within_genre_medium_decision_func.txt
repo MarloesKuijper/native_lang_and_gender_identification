@@ -1,0 +1,51 @@
+F1-scores descending order
+SVM with kernel rbf, C 1
+F1-score: 0.17365989538625826
+Accuracy: 0.23734177215189872
+
+SVM with kernel rbf, C 10
+F1-score: 0.17230610879721142
+Accuracy: 0.20253164556962025
+
+SVM with kernel rbf, C 20
+F1-score: 0.1714308979731398
+Accuracy: 0.189873417721519
+
+SVM with kernel linear, C 10
+F1-score: 0.06678165999040139
+Accuracy: 0.2120253164556962
+
+SVM with kernel linear, C 20
+F1-score: 0.06678165999040139
+Accuracy: 0.2120253164556962
+
+SVM with kernel linear, C 1
+F1-score: 0.06612927926046581
+Accuracy: 0.2120253164556962
+
+
+Accuracy descending order
+SVM with kernel rbf, C 1
+Accuracy: 0.23734177215189872
+F1-score: 0.17365989538625826
+
+SVM with kernel linear, C 1
+Accuracy: 0.2120253164556962
+F1-score: 0.06612927926046581
+
+SVM with kernel linear, C 10
+Accuracy: 0.2120253164556962
+F1-score: 0.06678165999040139
+
+SVM with kernel linear, C 20
+Accuracy: 0.2120253164556962
+F1-score: 0.06678165999040139
+
+SVM with kernel rbf, C 10
+Accuracy: 0.20253164556962025
+F1-score: 0.17230610879721142
+
+SVM with kernel rbf, C 20
+Accuracy: 0.189873417721519
+F1-score: 0.1714308979731398
+

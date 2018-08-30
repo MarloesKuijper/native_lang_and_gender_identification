@@ -1,0 +1,108 @@
+SVM with kernel linear, C 1
+Accuracy: 0.17678958785249457
+(Macro) F1-score: 0.055870889204222535
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.37      0.21       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.19      0.60      0.29       190
+
+    avg / total       0.06      0.18      0.09       922
+
+
+SVM with kernel linear, C 10
+Accuracy: 0.17678958785249457
+(Macro) F1-score: 0.055870889204222535
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.37      0.21       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.19      0.60      0.29       190
+
+    avg / total       0.06      0.18      0.09       922
+
+
+SVM with kernel linear, C 20
+Accuracy: 0.17678958785249457
+(Macro) F1-score: 0.055870889204222535
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.37      0.21       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.19      0.60      0.29       190
+
+    avg / total       0.06      0.18      0.09       922
+
+
+SVM with kernel rbf, C 1
+Accuracy: 0.19088937093275488
+(Macro) F1-score: 0.06024415512802222
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.40      0.22       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.22      0.65      0.32       190
+
+    avg / total       0.07      0.19      0.10       922
+
+
+SVM with kernel rbf, C 10
+Accuracy: 0.19088937093275488
+(Macro) F1-score: 0.06024415512802222
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.40      0.22       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.22      0.65      0.32       190
+
+    avg / total       0.07      0.19      0.10       922
+
+
+SVM with kernel rbf, C 20
+Accuracy: 0.19088937093275488
+(Macro) F1-score: 0.06024415512802222
+                 precision    recall  f1-score   support
+
+        germany       0.15      0.40      0.22       133
+           iran       0.00      0.00      0.00       112
+          italy       0.00      0.00      0.00        53
+      new-delhi       0.00      0.00      0.00        79
+         poland       0.00      0.00      0.00        74
+       portugal       0.00      0.00      0.00        68
+         russia       0.00      0.00      0.00       109
+          spain       0.00      0.00      0.00       104
+the-netherlands       0.22      0.65      0.32       190
+
+    avg / total       0.07      0.19      0.10       922
+
+

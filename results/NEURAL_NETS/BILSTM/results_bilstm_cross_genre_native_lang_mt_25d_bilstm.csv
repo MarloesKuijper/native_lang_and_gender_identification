@@ -1,0 +1,3 @@
+accuracy,batch_size,dropout,epochs,layers,neurons,optimizer
+0.1322033899820457,32,0.3,30,1,64,adam
+0.12994350284590558,32,0.3,30,2,64,adam

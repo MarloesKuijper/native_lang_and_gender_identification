@@ -1,0 +1,1 @@
+Decision Tree Accuracy 0.6236442516268981, with ngrams [1, 8], analyzer char, max_depth 10, min samples leaf 5
